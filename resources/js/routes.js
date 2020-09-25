@@ -5,7 +5,7 @@ import contactUs from './components/contactUs';
 let routes = [
     {
         path:"/",
-        component:Home
+        component:Home 
     },
     {
         path:"/contactUs",

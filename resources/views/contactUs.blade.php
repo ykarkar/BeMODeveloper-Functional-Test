@@ -12,7 +12,7 @@
 </head>
 <body>
  
-<div id="contactUs"></div>
+<div id="contact"></div>
  
  
 <script src="{{url('js')}}/jquery-3.5.1.min.js"></script>

@@ -2396,8 +2396,6 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
-//
-//
 /* harmony default export */ __webpack_exports__["default"] = ({
   name: "contactUs"
 });
@@ -2504,9 +2502,66 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
-//
+var isClicked = $(undefined).data("clicked");
+
+if (isClicked) {
+  isClicked = false;
+} else {
+  isClicked = true;
+}
+
+$(undefined).data("clicked", isClicked);
+
+if (isClicked) {
+  jQuery("nav, #menuBtn").addClass("show"), "open";
+  $("header").addClass("mobileb");
+  $("nav").addClass("navb");
+  $("nav ul ul").addClass("navul");
+} else {
+  jQuery("nav, #menuBtn").removeClass("show"), "open";
+  $("header").removeClass("mobileb");
+  $("nav").removeClass("navb");
+  $("nav ul ul").removeClass("navul");
+}
+
 /* harmony default export */ __webpack_exports__["default"] = ({
   name: "cmp-navbar"
+});
+
+/***/ }),
+
+/***/ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/contact.vue?vue&type=script&lang=js&":
+/*!*******************************************************************************************************************************************************!*\
+  !*** ./node_modules/babel-loader/lib??ref--4-0!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/contact.vue?vue&type=script&lang=js& ***!
+  \*******************************************************************************************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _components_partials_Navbar__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./components/partials/Navbar */ "./resources/js/components/partials/Navbar.vue");
+/* harmony import */ var _components_partials_Footer__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./components/partials/Footer */ "./resources/js/components/partials/Footer.vue");
+/* harmony import */ var _components_contactUs__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./components/contactUs */ "./resources/js/components/contactUs.vue");
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+
+
+
+/* harmony default export */ __webpack_exports__["default"] = ({
+  name: "contactUs",
+  components: {
+    'cmp-navbar': _components_partials_Navbar__WEBPACK_IMPORTED_MODULE_0__["default"],
+    'cmp-footer': _components_partials_Footer__WEBPACK_IMPORTED_MODULE_1__["default"],
+    'cmp-contact': _components_contactUs__WEBPACK_IMPORTED_MODULE_2__["default"]
+  }
 });
 
 /***/ }),
@@ -2523,7 +2578,45 @@ exports = module.exports = __webpack_require__(/*! ../../../node_modules/css-loa
 
 
 // module
-exports.push([module.i, "\nhtml[data-v-f2b6376c],\r\nbody[data-v-f2b6376c],\r\ndiv[data-v-f2b6376c],\r\nspan[data-v-f2b6376c],\r\nobject[data-v-f2b6376c],\r\niframe[data-v-f2b6376c],\r\nh1[data-v-f2b6376c],\r\nh2[data-v-f2b6376c],\r\nh3[data-v-f2b6376c],\r\nh4[data-v-f2b6376c],\r\nh5[data-v-f2b6376c],\r\nh6[data-v-f2b6376c],\r\np[data-v-f2b6376c],\r\nblockquote[data-v-f2b6376c],\r\npre[data-v-f2b6376c],\r\nabbr[data-v-f2b6376c],\r\naddress[data-v-f2b6376c],\r\ncite[data-v-f2b6376c],\r\ncode[data-v-f2b6376c],\r\ndel[data-v-f2b6376c],\r\ndfn[data-v-f2b6376c],\r\nem[data-v-f2b6376c],\r\nimg[data-v-f2b6376c],\r\nins[data-v-f2b6376c],\r\nkbd[data-v-f2b6376c],\r\nq[data-v-f2b6376c],\r\nsamp[data-v-f2b6376c],\r\nsmall[data-v-f2b6376c],\r\nstrong[data-v-f2b6376c],\r\nsub[data-v-f2b6376c],\r\nsup[data-v-f2b6376c],\r\nvar[data-v-f2b6376c],\r\nb[data-v-f2b6376c],\r\ni[data-v-f2b6376c],\r\ndl[data-v-f2b6376c],\r\ndt[data-v-f2b6376c],\r\ndd[data-v-f2b6376c],\r\nol[data-v-f2b6376c],\r\nul[data-v-f2b6376c],\r\nli[data-v-f2b6376c],\r\nfieldset[data-v-f2b6376c],\r\nform[data-v-f2b6376c],\r\nlabel[data-v-f2b6376c],\r\nlegend[data-v-f2b6376c],\r\ntable[data-v-f2b6376c],\r\ncaption[data-v-f2b6376c],\r\ntbody[data-v-f2b6376c],\r\ntfoot[data-v-f2b6376c],\r\nthead[data-v-f2b6376c],\r\ntr[data-v-f2b6376c],\r\nth[data-v-f2b6376c],\r\ntd[data-v-f2b6376c],\r\narticle[data-v-f2b6376c],\r\naside[data-v-f2b6376c],\r\ncanvas[data-v-f2b6376c],\r\ndetails[data-v-f2b6376c],\r\nfigcaption[data-v-f2b6376c],\r\nfigure[data-v-f2b6376c],\r\nfooter[data-v-f2b6376c],\r\nheader[data-v-f2b6376c],\r\nhgroup[data-v-f2b6376c],\r\nmenu[data-v-f2b6376c],\r\nnav[data-v-f2b6376c],\r\nsection[data-v-f2b6376c],\r\nsummary[data-v-f2b6376c],\r\ntime[data-v-f2b6376c],\r\nmark[data-v-f2b6376c],\r\naudio[data-v-f2b6376c],\r\nvideo[data-v-f2b6376c] {\r\n  margin: 0;\r\n  padding: 0;\r\n  border: 0;\r\n  outline: 0;\r\n  font-size: 100%;\r\n  background: transparent;\n}\narticle[data-v-f2b6376c],\r\naside[data-v-f2b6376c],\r\ndetails[data-v-f2b6376c],\r\nfigcaption[data-v-f2b6376c],\r\nfigure[data-v-f2b6376c],\r\nfooter[data-v-f2b6376c],\r\nheader[data-v-f2b6376c],\r\nhgroup[data-v-f2b6376c],\r\nmenu[data-v-f2b6376c],\r\nnav[data-v-f2b6376c],\r\nsection[data-v-f2b6376c] {\r\n  display: block;\n}\nh1[data-v-f2b6376c],\r\nh2[data-v-f2b6376c],\r\nh3[data-v-f2b6376c],\r\nh4[data-v-f2b6376c],\r\nh5[data-v-f2b6376c],\r\nh6[data-v-f2b6376c] {\r\n  font-weight: normal;\r\n  line-height: normal !important;\n}\nh1[data-v-f2b6376c] {\r\n  font-size: 38px;\n}\nh2[data-v-f2b6376c] {\r\n  font-size: 34px;\n}\nh3[data-v-f2b6376c] {\r\n  font-size: 30px;\n}\nh4[data-v-f2b6376c] {\r\n  font-size: 26px;\n}\nh5[data-v-f2b6376c] {\r\n  font-size: 22px;\n}\nh6[data-v-f2b6376c] {\r\n  font-size: 18px;\n}\n#extraContainer1[data-v-f2b6376c] {\r\n  position: relative;\r\n  z-index: 100;\n}\n#extraContainer11[data-v-f2b6376c] {\r\n  display: none;\n}\nsection h1[data-v-f2b6376c] {\r\n  line-height: 32px;\n}\nsection h2[data-v-f2b6376c],\r\nsection h3[data-v-f2b6376c],\r\nsection h4[data-v-f2b6376c],\r\nsection h5[data-v-f2b6376c],\r\nsection h6[data-v-f2b6376c] {\r\n  line-height: normal;\n}\n#feature[data-v-f2b6376c] {\r\n\tposition: relative;\r\n\t/* background:  url('./images/endbanner.jpg') no-repeat left top; */\r\n\tmargin-bottom: -6px;\n}\n#featureImg[data-v-f2b6376c] {\r\n\twidth: 100%;\r\n\theight: auto;\n}\na[data-v-f2b6376c] {\r\n  color: #373737;\r\n  text-decoration: none;\n}\nstrong[data-v-f2b6376c],\r\nb[data-v-f2b6376c] {\r\n  font-weight: bolder;\n}\nem[data-v-f2b6376c],\r\ni[data-v-f2b6376c] {\r\n  font-style: italic;\n}\np[data-v-f2b6376c] {\r\n  padding: 10px 0;\n}\nul[data-v-f2b6376c],\r\nol[data-v-f2b6376c] {\n}\n.image-left[data-v-f2b6376c] {\r\n  float: left;\r\n  padding: 18px;\n}\n.image-right[data-v-f2b6376c] {\r\n  float: right;\r\n  padding: 18px;\n}\nblockquote[data-v-f2b6376c] {\r\n  font-family: georgia, sarif;\r\n  font-style: italic;\n}\ncode[data-v-f2b6376c] {\r\n  margin: 18px 0;\r\n  padding: 13px 18px;\r\n  display: block;\r\n  font: 12px \"Courier New\", Courier, monospace;\r\n  background: rgba(0, 0, 0, 0.3);\r\n  padding: 10px;\n}\n#extraContainer9[data-v-f2b6376c] {\r\n  width: 100%;\r\n  margin: 0 auto;\r\n  position: absolute;\r\n  top: 0;\r\n  top: 45%;\r\n  text-align: center;\r\n  line-height: 60px;\r\n  letter-spacing: 10px;\r\n  z-index: 1000;\r\n  display: none;\n}\n.scrollup[data-v-f2b6376c]{\r\n    width: 80px;\r\n    height: 80px;\r\n    position:fixed;\r\n    bottom:50px;\r\n    right: 10px;\r\n    display: none;\r\n    text-indent:-9999px;\r\n    background: url('/images/up1.png') no-repeat;\r\n    width: 70px;\r\n    right: 0;\n}\n#extraContainer9[data-v-f2b6376c]:after {\r\n   \tcontent: \"\"; \r\n    display: block; \r\n    height: 1px;\r\n    padding-bottom: 12px;\r\n   \tborder-bottom: 2px solid;\r\n  \tmargin: 0px auto; \r\n  \tdisplay: none;\n}\r\n", ""]);
+exports.push([module.i, "\nhtml[data-v-f2b6376c],\r\nbody[data-v-f2b6376c],\r\ndiv[data-v-f2b6376c],\r\nspan[data-v-f2b6376c],\r\nobject[data-v-f2b6376c],\r\niframe[data-v-f2b6376c],\r\nh1[data-v-f2b6376c],\r\nh2[data-v-f2b6376c],\r\nh3[data-v-f2b6376c],\r\nh4[data-v-f2b6376c],\r\nh5[data-v-f2b6376c],\r\nh6[data-v-f2b6376c],\r\np[data-v-f2b6376c],\r\nblockquote[data-v-f2b6376c],\r\npre[data-v-f2b6376c],\r\nabbr[data-v-f2b6376c],\r\naddress[data-v-f2b6376c],\r\ncite[data-v-f2b6376c],\r\ncode[data-v-f2b6376c],\r\ndel[data-v-f2b6376c],\r\ndfn[data-v-f2b6376c],\r\nem[data-v-f2b6376c],\r\nimg[data-v-f2b6376c],\r\nins[data-v-f2b6376c],\r\nkbd[data-v-f2b6376c],\r\nq[data-v-f2b6376c],\r\nsamp[data-v-f2b6376c],\r\nsmall[data-v-f2b6376c],\r\nstrong[data-v-f2b6376c],\r\nsub[data-v-f2b6376c],\r\nsup[data-v-f2b6376c],\r\nvar[data-v-f2b6376c],\r\nb[data-v-f2b6376c],\r\ni[data-v-f2b6376c],\r\ndl[data-v-f2b6376c],\r\ndt[data-v-f2b6376c],\r\ndd[data-v-f2b6376c],\r\nol[data-v-f2b6376c],\r\nul[data-v-f2b6376c],\r\nli[data-v-f2b6376c],\r\nfieldset[data-v-f2b6376c],\r\nform[data-v-f2b6376c],\r\nlabel[data-v-f2b6376c],\r\nlegend[data-v-f2b6376c],\r\ntable[data-v-f2b6376c],\r\ncaption[data-v-f2b6376c],\r\ntbody[data-v-f2b6376c],\r\ntfoot[data-v-f2b6376c],\r\nthead[data-v-f2b6376c],\r\ntr[data-v-f2b6376c],\r\nth[data-v-f2b6376c],\r\ntd[data-v-f2b6376c],\r\narticle[data-v-f2b6376c],\r\naside[data-v-f2b6376c],\r\ncanvas[data-v-f2b6376c],\r\ndetails[data-v-f2b6376c],\r\nfigcaption[data-v-f2b6376c],\r\nfigure[data-v-f2b6376c],\r\nfooter[data-v-f2b6376c],\r\nheader[data-v-f2b6376c],\r\nhgroup[data-v-f2b6376c],\r\nmenu[data-v-f2b6376c],\r\nnav[data-v-f2b6376c],\r\nsection[data-v-f2b6376c],\r\nsummary[data-v-f2b6376c],\r\ntime[data-v-f2b6376c],\r\nmark[data-v-f2b6376c],\r\naudio[data-v-f2b6376c],\r\nvideo[data-v-f2b6376c] {\r\n  margin: 0;\r\n  padding: 0;\r\n  border: 0;\r\n  outline: 0;\r\n  font-size: 100%;\r\n  background: transparent;\n}\nsection #padding[data-v-f2b6376c], h1.blog-entry-title[data-v-f2b6376c], aside[data-v-f2b6376c], .movie-page-title[data-v-f2b6376c], #sideTitle[data-v-f2b6376c], section #padding h1[data-v-f2b6376c], section #padding h2[data-v-f2b6376c], section #padding h3[data-v-f2b6376c], section #padding h4[data-v-f2b6376c], section #padding h5[data-v-f2b6376c], section #padding h6[data-v-f2b6376c]  {\r\n\ttext-align: center!important;\n}\narticle[data-v-f2b6376c],\r\naside[data-v-f2b6376c],\r\ndetails[data-v-f2b6376c],\r\nfigcaption[data-v-f2b6376c],\r\nfigure[data-v-f2b6376c],\r\nfooter[data-v-f2b6376c],\r\nheader[data-v-f2b6376c],\r\nhgroup[data-v-f2b6376c],\r\nmenu[data-v-f2b6376c],\r\nnav[data-v-f2b6376c],\r\nsection[data-v-f2b6376c] {\r\n  display: block;\n}\nh1[data-v-f2b6376c],\r\nh2[data-v-f2b6376c],\r\nh3[data-v-f2b6376c],\r\nh4[data-v-f2b6376c],\r\nh5[data-v-f2b6376c],\r\nh6[data-v-f2b6376c] {\r\n  font-weight: normal;\r\n  line-height: normal !important;\n}\nh1[data-v-f2b6376c] {\r\n  font-size: 38px;\n}\nh2[data-v-f2b6376c] {\r\n  font-size: 34px;\n}\nh3[data-v-f2b6376c] {\r\n  font-size: 30px;\n}\nh4[data-v-f2b6376c] {\r\n  font-size: 26px;\n}\nh5[data-v-f2b6376c] {\r\n  font-size: 22px;\n}\nh6[data-v-f2b6376c] {\r\n  font-size: 18px;\n}\n#extraContainer1[data-v-f2b6376c] {\r\n  position: relative;\r\n  z-index: 100;\n}\n#extraContainer11[data-v-f2b6376c] {\r\n  display: none;\n}\nsection h1[data-v-f2b6376c] {\r\n  line-height: 32px;\n}\nsection h2[data-v-f2b6376c],\r\nsection h3[data-v-f2b6376c],\r\nsection h4[data-v-f2b6376c],\r\nsection h5[data-v-f2b6376c],\r\nsection h6[data-v-f2b6376c] {\r\n  line-height: normal;\n}\n#feature[data-v-f2b6376c] {\r\n\tposition: relative;\r\n\t/* background:  url('./images/endbanner.jpg') no-repeat left top; */\r\n\tmargin-bottom: -6px;\n}\n#featureImg[data-v-f2b6376c] {\r\n\twidth: 100%;\r\n\theight: auto;\n}\na[data-v-f2b6376c] {\r\n  color: #373737;\r\n  text-decoration: none;\n}\nstrong[data-v-f2b6376c],\r\nb[data-v-f2b6376c] {\r\n  font-weight: bolder;\n}\nem[data-v-f2b6376c],\r\ni[data-v-f2b6376c] {\r\n  font-style: italic;\n}\np[data-v-f2b6376c] {\r\n  padding: 10px 0;\n}\n.image-left[data-v-f2b6376c] {\r\n  float: left;\r\n  padding: 18px;\n}\n.image-right[data-v-f2b6376c] {\r\n  float: right;\r\n  padding: 18px;\n}\nblockquote[data-v-f2b6376c] {\r\n  font-family: georgia, sarif;\r\n  font-style: italic;\n}\ncode[data-v-f2b6376c] {\r\n  margin: 18px 0;\r\n  padding: 13px 18px;\r\n  display: block;\r\n  font: 12px \"Courier New\", Courier, monospace;\r\n  background: rgba(0, 0, 0, 0.3);\r\n  padding: 10px;\n}\n#extraContainer9[data-v-f2b6376c] {\r\n  width: 100%;\r\n  margin: 0 auto;\r\n  position: absolute;\r\n  top: 0;\r\n  top: 45%;\r\n  text-align: center;\r\n  line-height: 60px;\r\n  letter-spacing: 10px;\r\n  z-index: 1000;\r\n  display: none;\n}\n.scrollup[data-v-f2b6376c]{\r\n    width: 80px;\r\n    height: 80px;\r\n    position:fixed;\r\n    bottom:50px;\r\n    right: 10px;\r\n    display: none;\r\n    text-indent:-9999px;\r\n    background: url('/images/up1.png') no-repeat;\r\n    width: 70px;\r\n    right: 0;\n}\n#extraContainer9[data-v-f2b6376c]:after {\r\n   \tcontent: \"\"; \r\n    display: block; \r\n    height: 1px;\r\n    padding-bottom: 12px;\r\n   \tborder-bottom: 2px solid;\r\n  \tmargin: 0px auto; \r\n  \tdisplay: none;\n}\n.desktopScreenNavbar[data-v-f2b6376c], nav ul ul[data-v-f2b6376c], .mobileScreenNavbar[data-v-f2b6376c], .mobileb[data-v-f2b6376c], .navb[data-v-f2b6376c] {\r\n\tbackground-color: #FFFFFF;\n}\n#lt[data-v-f2b6376c], #lm[data-v-f2b6376c], #lb[data-v-f2b6376c] {\r\n\tbackground: #000000;\n}\n#sideTitle[data-v-f2b6376c] {\r\n\tcolor: #FFFFFF;\n}\naside[data-v-f2b6376c] {\r\n\tcolor: #373737;\n}\n#wrapper #titlelogo h1[data-v-f2b6376c], #container header h1[data-v-f2b6376c] {\r\n\tcolor: #000066;\n}\na.social[data-v-f2b6376c], a.social1[data-v-f2b6376c] {\r\n\tcolor: #FFFFFF!important;\n}\na.social[data-v-f2b6376c]:hover, a.social1[data-v-f2b6376c]:hover {\r\n\tcolor: #999999!important;\n}\n#wrapper nav ul li a[data-v-f2b6376c], #container nav ul li a[data-v-f2b6376c] {\r\n\tcolor: #000000;\n}\nnav ul li a[data-v-f2b6376c]:hover, nav > ul > li#current > a[data-v-f2b6376c], nav > ul > li > ul > li#current > a[data-v-f2b6376c], nav > ul > li#currentAncestor > a[data-v-f2b6376c], nav > ul > li > ul > li > ul > li#current > a[data-v-f2b6376c], nav > ul > li > ul > li#currentAncestor > a[data-v-f2b6376c], nav ul li ul li[data-v-f2b6376c]:hover:after   {\r\n\tcolor: #000066;\n}\n#extraContainer9[data-v-f2b6376c] {\r\n\tcolor: #FFFFFF;\n}\n#extraContainer9[data-v-f2b6376c]:after {\r\n\tborder-bottom-color: #FFFFFF;\n}\n#extraContainer8[data-v-f2b6376c]:after, .movie-page-title[data-v-f2b6376c]:after, .album-title[data-v-f2b6376c]:after  {\r\n\tcolor: #DDDDDD;\n}\n.thumbnail-caption[data-v-f2b6376c] {\r\n\tcolor: #373737;\n}\nnav ul li[data-v-f2b6376c]:hover:after, nav > ul > li#current[data-v-f2b6376c]:after, .banner-text[data-v-f2b6376c]:after, header nav > ul > li > a#currentAncestor[data-v-f2b6376c]::after, nav > ul > li > a#current[data-v-f2b6376c]:after, nav ul li a[data-v-f2b6376c]:hover:after, header nav > ul > li > a#currentAncestor[data-v-f2b6376c]::after {\r\n\tborder-bottom-color: #000066;\n}\nsection[data-v-f2b6376c], .album-description[data-v-f2b6376c], .photo-background p.photo-caption[data-v-f2b6376c], .photo-background p[data-v-f2b6376c], p.photo-links a[data-v-f2b6376c] {\r\n\tcolor: #373737;\n}\n#footer[data-v-f2b6376c] {\r\n\tcolor: #FFFFFF;\n}\n#container h1[data-v-f2b6376c], #container h2[data-v-f2b6376c], #container h3[data-v-f2b6376c], #container h4[data-v-f2b6376c], #container h5[data-v-f2b6376c],#container h6[data-v-f2b6376c], .album-title[data-v-f2b6376c], .movie-page-title[data-v-f2b6376c], #padding .message-text[data-v-f2b6376c], #extraContainer8[data-v-f2b6376c] {\r\n\tcolor: #373737;\n}\n#extraContainer2 h1[data-v-f2b6376c], #extraContainer2 h2[data-v-f2b6376c], #extraContainer2 h3[data-v-f2b6376c], #extraContainer2 h4[data-v-f2b6376c], #extraContainer2 h5[data-v-f2b6376c], #extraContainer2 h6[data-v-f2b6376c] {\r\n \tcolor: #373737;\n}\n#extraContainer3 h1[data-v-f2b6376c], #extraContainer3 h2[data-v-f2b6376c], #extraContainer3 h3[data-v-f2b6376c], #extraContainer3 h4[data-v-f2b6376c], #extraContainer3 h5[data-v-f2b6376c], #extraContainer3 h6[data-v-f2b6376c] {\r\n\tcolor: #373737;\n}\n#extraContainer4 h1[data-v-f2b6376c], #extraContainer4 h2[data-v-f2b6376c], #extraContainer4 h3[data-v-f2b6376c], #extraContainer4 h4[data-v-f2b6376c], #extraContainer4 h5[data-v-f2b6376c], #extraContainer4 h6[data-v-f2b6376c] {\r\n\tcolor: #373737;\n}\n#extraContainer5 h1[data-v-f2b6376c], #extraContainer5 h2[data-v-f2b6376c], #extraContainer5 h3[data-v-f2b6376c], #extraContainer5 h4[data-v-f2b6376c], #extraContainer5 h5[data-v-f2b6376c], #extraContainer5 h6[data-v-f2b6376c] {\r\n\tcolor: #373737;\n}\n#extraContainer6 h1[data-v-f2b6376c], #extraContainer6 h2[data-v-f2b6376c], #extraContainer6 h3[data-v-f2b6376c], #extraContainer6 h4[data-v-f2b6376c], #extraContainer6 h5[data-v-f2b6376c], #extraContainer6 h6[data-v-f2b6376c] {\r\n\tcolor: #FFFFFF;\n}\naside[data-v-f2b6376c], section #padding[data-v-f2b6376c],  .photo-background[data-v-f2b6376c], #container[data-v-f2b6376c], html[data-v-f2b6376c]   {\r\n\tbackground-color: #FFFFFF;\n}\nfooter[data-v-f2b6376c] {background-color: #000066;}\n#container a[data-v-f2b6376c], #footer a[data-v-f2b6376c] {\r\n\tcolor: #FF6600;\n}\n#extraContainer7 a[data-v-f2b6376c], #extraContainer8 a[data-v-f2b6376c] {\r\n\tcolor: #FF6600;\n}\n#container a[data-v-f2b6376c]:hover, #footer a[data-v-f2b6376c]:hover  {\r\n\tcolor: #909090;\n}\n#extraContainer2[data-v-f2b6376c] {\r\n\tbackground-color: #DDDDDD;\n}\n#extraContainer3[data-v-f2b6376c] {\r\n\tbackground-color: #CCCCCC;\n}\n#extraContainer4[data-v-f2b6376c] {\r\n\tbackground-color: #BBBBBB;\n}\n#extraContainer5[data-v-f2b6376c] {\r\n\tbackground-color: #AAAAAA;\n}\n#extraContainer6[data-v-f2b6376c] {\r\n\tbackground-color: #999999;\n}\n.blog-entry[data-v-f2b6376c]{\r\n\tborder-bottom-color: #DDDDDD;\n}\n#blog-categories[data-v-f2b6376c] {\r\n\tborder-top-color: #DDDDDD;\n}\n.thumbnail-frame[data-v-f2b6376c], .movie-thumbnail-frame[data-v-f2b6376c] {\r\n\tborder-color: #DDDDDD;\n}\n.form-input-field[data-v-f2b6376c] {\r\n\tbackground: #CCCCCC;\n}\n.form-input-button[data-v-f2b6376c] {\r\n\tbackground: #999999;\n}\nform div label[data-v-f2b6376c] {\r\n\tcolor: #373737;\n}\n.form-input-field[data-v-f2b6376c] {\r\n\tcolor: #333333;\n}\n.form-input-button[data-v-f2b6376c] {\r\n\tcolor: #000066;\n}\n@media only screen and (max-width: 960px) {\nnav[data-v-f2b6376c] {\r\n\tbackground-color: #FFFFFF;\n}\n}\r\n\r\n\r\n", ""]);
+
+// exports
+
+
+/***/ }),
+
+/***/ "./node_modules/css-loader/index.js?!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/src/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/contactUs.vue?vue&type=style&index=0&id=26378223&scoped=true&lang=css&":
+/*!***************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/css-loader??ref--6-1!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/src??ref--6-2!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/components/contactUs.vue?vue&type=style&index=0&id=26378223&scoped=true&lang=css& ***!
+  \***************************************************************************************************************************************************************************************************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+exports = module.exports = __webpack_require__(/*! ../../../node_modules/css-loader/lib/css-base.js */ "./node_modules/css-loader/lib/css-base.js")(false);
+// imports
+
+
+// module
+exports.push([module.i, "\nhtml[data-v-26378223],\r\nbody[data-v-26378223],\r\ndiv[data-v-26378223],\r\nspan[data-v-26378223],\r\nobject[data-v-26378223],\r\niframe[data-v-26378223],\r\nh1[data-v-26378223],\r\nh2[data-v-26378223],\r\nh3[data-v-26378223],\r\nh4[data-v-26378223],\r\nh5[data-v-26378223],\r\nh6[data-v-26378223],\r\np[data-v-26378223],\r\nblockquote[data-v-26378223],\r\npre[data-v-26378223],\r\nabbr[data-v-26378223],\r\naddress[data-v-26378223],\r\ncite[data-v-26378223],\r\ncode[data-v-26378223],\r\ndel[data-v-26378223],\r\ndfn[data-v-26378223],\r\nem[data-v-26378223],\r\nimg[data-v-26378223],\r\nins[data-v-26378223],\r\nkbd[data-v-26378223],\r\nq[data-v-26378223],\r\nsamp[data-v-26378223],\r\nsmall[data-v-26378223],\r\nstrong[data-v-26378223],\r\nsub[data-v-26378223],\r\nsup[data-v-26378223],\r\nvar[data-v-26378223],\r\nb[data-v-26378223],\r\ni[data-v-26378223],\r\ndl[data-v-26378223],\r\ndt[data-v-26378223],\r\ndd[data-v-26378223],\r\nol[data-v-26378223],\r\nul[data-v-26378223],\r\nli[data-v-26378223],\r\nfieldset[data-v-26378223],\r\nform[data-v-26378223],\r\nlabel[data-v-26378223],\r\nlegend[data-v-26378223],\r\ntable[data-v-26378223],\r\ncaption[data-v-26378223],\r\ntbody[data-v-26378223],\r\ntfoot[data-v-26378223],\r\nthead[data-v-26378223],\r\ntr[data-v-26378223],\r\nth[data-v-26378223],\r\ntd[data-v-26378223],\r\narticle[data-v-26378223],\r\naside[data-v-26378223],\r\ncanvas[data-v-26378223],\r\ndetails[data-v-26378223],\r\nfigcaption[data-v-26378223],\r\nfigure[data-v-26378223],\r\nfooter[data-v-26378223],\r\nheader[data-v-26378223],\r\nhgroup[data-v-26378223],\r\nmenu[data-v-26378223],\r\nnav[data-v-26378223],\r\nsection[data-v-26378223],\r\nsummary[data-v-26378223],\r\ntime[data-v-26378223],\r\nmark[data-v-26378223],\r\naudio[data-v-26378223],\r\nvideo[data-v-26378223] {\r\n  margin: 0;\r\n  padding: 0;\r\n  border: 0;\r\n  outline: 0;\r\n  font-size: 100%;\r\n  background: transparent;\n}\n.videoWrapper[data-v-26378223] {\r\n  position: relative;\r\n  z-index: 1;\r\n  display: none;\n}\nsection #padding[data-v-26378223], h1.blog-entry-title[data-v-26378223], aside[data-v-26378223], .movie-page-title[data-v-26378223], #sideTitle[data-v-26378223], section #padding h1[data-v-26378223], section #padding h2[data-v-26378223], section #padding h3[data-v-26378223], section #padding h4[data-v-26378223], section #padding h5[data-v-26378223], section #padding h6[data-v-26378223]  {\r\n\ttext-align: center!important;\n}\narticle[data-v-26378223],\r\naside[data-v-26378223],\r\ndetails[data-v-26378223],\r\nfigcaption[data-v-26378223],\r\nfigure[data-v-26378223],\r\nfooter[data-v-26378223],\r\nheader[data-v-26378223],\r\nhgroup[data-v-26378223],\r\nmenu[data-v-26378223],\r\nnav[data-v-26378223],\r\nsection[data-v-26378223] {\r\n  display: block;\n}\nh1[data-v-26378223],\r\nh2[data-v-26378223],\r\nh3[data-v-26378223],\r\nh4[data-v-26378223],\r\nh5[data-v-26378223],\r\nh6[data-v-26378223] {\r\n  font-weight: normal;\r\n  line-height: normal !important;\n}\n#container[data-v-26378223] {\r\n  position: relative;\n}\n#container a[data-v-26378223] {\r\n  transition: all 450ms;\n}\nh1[data-v-26378223] {\r\n  font-size: 38px;\n}\nh2[data-v-26378223] {\r\n  font-size: 34px;\n}\nh3[data-v-26378223] {\r\n  font-size: 30px;\n}\nh4[data-v-26378223] {\r\n  font-size: 26px;\n}\nh5[data-v-26378223] {\r\n  font-size: 22px;\n}\nh6[data-v-26378223] {\r\n  font-size: 18px;\n}\n#extraContainer1[data-v-26378223] {\r\n  position: relative;\r\n  z-index: 100;\n}\n#extraContainer11[data-v-26378223] {\r\n  display: none;\n}\nsection h1[data-v-26378223] {\r\n  line-height: 32px;\n}\nsection h2[data-v-26378223],\r\nsection h3[data-v-26378223],\r\nsection h4[data-v-26378223],\r\nsection h5[data-v-26378223],\r\nsection h6[data-v-26378223] {\r\n  line-height: normal;\n}\n#feature[data-v-26378223] {\r\n  position: relative;\r\n  margin-bottom: -6px;\n}\n#featureImg[data-v-26378223] {\r\n  width: 100%;\r\n  height: auto;\n}\n.fImg[data-v-26378223] {\r\n  display: none;\n}\n#feature.bghide[data-v-26378223] {\r\n  background-image: none;\n}\n#padding .message-text[data-v-26378223] {\r\n  padding-bottom: 20px;\r\n\r\n  font-size: 22px;\r\n  text-align: left;\r\n  letter-spacing: 2px;\r\n  line-height: 32px;\n}\n.message-text[data-v-26378223] {\r\n  display: none;\n}\nform div .message-text[data-v-26378223] {\r\n  display: block;\n}\nform div[data-v-26378223] {\r\n  padding-top: 5px;\r\n  padding-bottom: 50px;\n}\n#padding .message-text[data-v-26378223] {\r\n  background: none;\n}\nform div #padding .message-text[data-v-26378223] {\r\n  display: none;\n}\nform div label[data-v-26378223] {\r\n  text-transform: uppercase;\r\n  font-size: 0.9em;\r\n  letter-spacing: 1px;\n}\n.form-input-field[data-v-26378223] {\r\n  width: 70%;\r\n  width: 85%;\r\n  margin-top: 7px;\r\n  padding: 9px;\r\n  outline: none;\r\n  border: none;\n}\n.form-input-button[data-v-26378223] {\r\n  padding: 7px 28px 7px 28px;\r\n  margin: 10px 10px 0 0;\r\n  text-transform: uppercase;\r\n  font-size: 0.75em;\r\n  border: none;\r\n  cursor: pointer;\r\n  -webkit-appearance: none;\r\n  transition: all 450ms;\n}\n.form-input-button[data-v-26378223]:hover {\r\n  background-color: rgba(255, 255, 255, 0.3) !important;\n}\n.desktopScreenNavbar[data-v-26378223], nav ul ul[data-v-26378223], .mobileScreenNavbar[data-v-26378223], .mobileb[data-v-26378223], .navb[data-v-26378223] {\r\n\tbackground-color: #FFFFFF;\n}\n#lt[data-v-26378223], #lm[data-v-26378223], #lb[data-v-26378223] {\r\n\tbackground: #000000;\n}\n#sideTitle[data-v-26378223] {\r\n\tcolor: #FFFFFF;\n}\naside[data-v-26378223] {\r\n\tcolor: #373737;\n}\n#wrapper #titlelogo h1[data-v-26378223], #container header h1[data-v-26378223] {\r\n\tcolor: #000066;\n}\na.social[data-v-26378223], a.social1[data-v-26378223] {\r\n\tcolor: #FFFFFF!important;\n}\na.social[data-v-26378223]:hover, a.social1[data-v-26378223]:hover {\r\n\tcolor: #999999!important;\n}\n#wrapper nav ul li a[data-v-26378223], #container nav ul li a[data-v-26378223] {\r\n\tcolor: #000000;\n}\nnav ul li a[data-v-26378223]:hover, nav > ul > li#current > a[data-v-26378223], nav > ul > li > ul > li#current > a[data-v-26378223], nav > ul > li#currentAncestor > a[data-v-26378223], nav > ul > li > ul > li > ul > li#current > a[data-v-26378223], nav > ul > li > ul > li#currentAncestor > a[data-v-26378223], nav ul li ul li[data-v-26378223]:hover:after   {\r\n\tcolor: #000066;\n}\n#extraContainer9[data-v-26378223] {\r\n\tcolor: #FFFFFF;\n}\n#extraContainer9[data-v-26378223]:after {\r\n\tborder-bottom-color: #FFFFFF;\n}\n#extraContainer8[data-v-26378223]:after, .movie-page-title[data-v-26378223]:after, .album-title[data-v-26378223]:after  {\r\n\tcolor: #DDDDDD;\n}\n.thumbnail-caption[data-v-26378223] {\r\n\tcolor: #373737;\n}\nnav ul li[data-v-26378223]:hover:after, nav > ul > li#current[data-v-26378223]:after, .banner-text[data-v-26378223]:after, header nav > ul > li > a#currentAncestor[data-v-26378223]::after, nav > ul > li > a#current[data-v-26378223]:after, nav ul li a[data-v-26378223]:hover:after, header nav > ul > li > a#currentAncestor[data-v-26378223]::after {\r\n\tborder-bottom-color: #000066;\n}\nsection[data-v-26378223], .album-description[data-v-26378223], .photo-background p.photo-caption[data-v-26378223], .photo-background p[data-v-26378223], p.photo-links a[data-v-26378223] {\r\n\tcolor: #373737;\n}\n#footer[data-v-26378223] {\r\n\tcolor: #FFFFFF;\n}\n#container h1[data-v-26378223], #container h2[data-v-26378223], #container h3[data-v-26378223], #container h4[data-v-26378223], #container h5[data-v-26378223],#container h6[data-v-26378223], .album-title[data-v-26378223], .movie-page-title[data-v-26378223], #padding .message-text[data-v-26378223], #extraContainer8[data-v-26378223] {\r\n\tcolor: #373737;\n}\n#extraContainer2 h1[data-v-26378223], #extraContainer2 h2[data-v-26378223], #extraContainer2 h3[data-v-26378223], #extraContainer2 h4[data-v-26378223], #extraContainer2 h5[data-v-26378223], #extraContainer2 h6[data-v-26378223] {\r\n \tcolor: #373737;\n}\n#extraContainer3 h1[data-v-26378223], #extraContainer3 h2[data-v-26378223], #extraContainer3 h3[data-v-26378223], #extraContainer3 h4[data-v-26378223], #extraContainer3 h5[data-v-26378223], #extraContainer3 h6[data-v-26378223] {\r\n\tcolor: #373737;\n}\n#extraContainer4 h1[data-v-26378223], #extraContainer4 h2[data-v-26378223], #extraContainer4 h3[data-v-26378223], #extraContainer4 h4[data-v-26378223], #extraContainer4 h5[data-v-26378223], #extraContainer4 h6[data-v-26378223] {\r\n\tcolor: #373737;\n}\n#extraContainer5 h1[data-v-26378223], #extraContainer5 h2[data-v-26378223], #extraContainer5 h3[data-v-26378223], #extraContainer5 h4[data-v-26378223], #extraContainer5 h5[data-v-26378223], #extraContainer5 h6[data-v-26378223] {\r\n\tcolor: #373737;\n}\n#extraContainer6 h1[data-v-26378223], #extraContainer6 h2[data-v-26378223], #extraContainer6 h3[data-v-26378223], #extraContainer6 h4[data-v-26378223], #extraContainer6 h5[data-v-26378223], #extraContainer6 h6[data-v-26378223] {\r\n\tcolor: #FFFFFF;\n}\naside[data-v-26378223], section #padding[data-v-26378223],  .photo-background[data-v-26378223], #container[data-v-26378223], html[data-v-26378223]   {\r\n\tbackground-color: #FFFFFF;\n}\nfooter[data-v-26378223] {background-color: #000066;}\n#container a[data-v-26378223], #footer a[data-v-26378223] {\r\n\tcolor: #FF6600;\n}\n#extraContainer7 a[data-v-26378223], #extraContainer8 a[data-v-26378223] {\r\n\tcolor: #FF6600;\n}\n#container a[data-v-26378223]:hover, #footer a[data-v-26378223]:hover  {\r\n\tcolor: #909090;\n}\n#extraContainer2[data-v-26378223] {\r\n\tbackground-color: #DDDDDD;\n}\n#extraContainer3[data-v-26378223] {\r\n\tbackground-color: #CCCCCC;\n}\n#extraContainer4[data-v-26378223] {\r\n\tbackground-color: #BBBBBB;\n}\n#extraContainer5[data-v-26378223] {\r\n\tbackground-color: #AAAAAA;\n}\n#extraContainer6[data-v-26378223] {\r\n\tbackground-color: #999999;\n}\n.blog-entry[data-v-26378223]{\r\n\tborder-bottom-color: #DDDDDD;\n}\n#blog-categories[data-v-26378223] {\r\n\tborder-top-color: #DDDDDD;\n}\n.thumbnail-frame[data-v-26378223], .movie-thumbnail-frame[data-v-26378223] {\r\n\tborder-color: #DDDDDD;\n}\n.form-input-field[data-v-26378223] {\r\n\tbackground: #CCCCCC;\n}\n.form-input-button[data-v-26378223] {\r\n\tbackground: #999999;\n}\nform div label[data-v-26378223] {\r\n\tcolor: #373737;\n}\n.form-input-field[data-v-26378223] {\r\n\tcolor: #333333;\n}\n.form-input-button[data-v-26378223] {\r\n\tcolor: #000066;\n}\n@media only screen and (max-width: 960px) {\nnav[data-v-26378223] {\r\n\tbackground-color: #FFFFFF;\n}\n}\n@media only screen and (max-width: 1060px) {\nnav ul li[data-v-26378223] {\r\n\tpadding-left: 21px;\r\n\tpadding-right: 21px;\n}\n}\n@media only screen and (min-width: 1024px) and (max-width: 1024px) {\nsection #padding[data-v-26378223], aside[data-v-26378223], #extraContainer2[data-v-26378223], #extraContainer3[data-v-26378223], #extraContainer4[data-v-26378223], #extraContainer5[data-v-26378223], #extraContainer6[data-v-26378223] {\r\n\tbackground-attachment: scroll!important;\n}\nnav > ul > li > ul[data-v-26378223] {\r\n \ttop: 83px;\n}\nbody[data-v-26378223]{\r\n\t-webkit-text-size-adjust: none;\n}\n}\n@media only screen and (max-width: 960px) {\n#nwrap[data-v-26378223] {\r\n\twidth: 100%;\r\n\tpadding-top: 0;\n}\n#mwrap[data-v-26378223] {\r\n\tdisplay: block;\n}\n.show[data-v-26378223] {\r\n\tdisplay: block!important;\n}\nnav[data-v-26378223] {\r\n\tdisplay: none;\r\n\tpadding-top: 0;\r\n\tposition: absolute;\r\n\ttext-align: center;\r\n\tmargin: 0 auto;\r\n\twidth: 100%;\r\n\tpadding-bottom: 10px;\n}\nnav ul[data-v-26378223] {\r\n\twidth: 100%;\r\n\tpadding-top: 10px;\r\n\tpadding-bottom: 10px;\n}\nnav ul li[data-v-26378223] {\r\n\tdisplay: block;\r\n\tpadding-bottom: 10px;\r\n\tpadding-top: 10px;\r\n\tpadding-right: 0;\r\n\tpadding-left: 0;\r\n\tbackground: none;\n}\nnav ul ul[data-v-26378223] {\r\n\tbackground: none;\n}\nnav ul ul[data-v-26378223] {\r\n\tposition: relative;\r\n\tpadding-top: 10px;\r\n\twidth: 100%;\r\n\ttext-align: center;\r\n\tmargin-left: 0;\n}\nnav li li[data-v-26378223] {\r\n\tmargin: 5px auto;\n}\nnav li li a[data-v-26378223] {\r\n\tfont-size: 11px;\n}\nnav li li:hover ul[data-v-26378223] {\r\n\tleft: 0;\r\n\ttop: 0;\n}\nnav > ul > li > a[data-v-26378223] {\r\n\tpadding-top: 0;\n}\nnav > ul > li > ul[data-v-26378223] {\r\n\ttop: 35px;\n}\nnav ul li ul li[data-v-26378223] {\r\n\tdisplay: block;\r\n\tpadding: 0;\r\n\tpadding-top: 5px;\n}\n.ie9 nav > ul > li > ul[data-v-26378223] {\r\n\ttop: 5px;\r\n\tleft: 0;\n}\n.ie8 nav > ul > li > ul[data-v-26378223] {\r\n\ttop: 5px;\r\n\tleft: 0;\n}\nnav > ul > li > ul[data-v-26378223] {\r\n\ttop: 5px;\r\n\tleft: 0;\n}\nnav > ul > li#current[data-v-26378223]:after, header nav > ul > li#currentAncestor[data-v-26378223]::after, nav ul li[data-v-26378223]:hover:after  {\r\n\tborder: none;\n}\nnav ul li ul li a[data-v-26378223]:hover:after {\r\n\twidth: 5%;\n}\nnav ul li a[data-v-26378223]:after {\r\n\tcontent: \"\"; \r\n\tdisplay: block; \r\n\tborder-bottom: 1px solid #fff;\r\n\tmargin: 0px auto; \r\n\twidth: 4%;\r\n\tpadding-bottom: 5px;\r\n\topacity: 0;\n}\nnav ul li a[data-v-26378223]:hover:after {\r\n\topacity: 1;\n}\nnav ul li ul li[data-v-26378223]:hover:after {\r\n\topacity: 0;\n}\nnav > ul > li > a#current[data-v-26378223]:after, nav ul li a[data-v-26378223]:hover:after, header nav > ul > li > a#currentAncestor[data-v-26378223]::after {\r\n\tcontent: \"\"; \r\n\tdisplay: block; \r\n\tborder-bottom: 1px solid #fff;\r\n\tmargin: 0px auto; \r\n\twidth: 4%;\r\n\tpadding-bottom: 5px;\n}\n}\n@media only screen and (min-width: 768px) and (max-width: 768px) {\nsection #padding[data-v-26378223], aside[data-v-26378223], #extraContainer2[data-v-26378223], #extraContainer3[data-v-26378223], #extraContainer4[data-v-26378223], #extraContainer5[data-v-26378223], #extraContainer6[data-v-26378223] {\r\n\tbackground-attachment: scroll!important;\n}\n#sideTitle[data-v-26378223] {\r\n\tmargin-top: 26px;\n}\n}\n@media only screen and (max-width: 768px) {\n#mwrap[data-v-26378223] {padding-top: 3.5%;}\n#extraContainer9[data-v-26378223] {\r\n\tletter-spacing: 6px;\n}\nbody[data-v-26378223]{\r\n\t-webkit-text-size-adjust: none;\n}\n.form-input-field[data-v-26378223] {\r\n\twidth: 90%;\n}\nform[data-v-26378223] {\r\n\tmargin-left: 0;\n}\n}\n@media only screen and (max-width: 767px) {\n#footer[data-v-26378223] {\r\n\tdisplay: block;\r\n\tpadding-bottom: 10px;\n}\n#socialicons[data-v-26378223], #socialicons1[data-v-26378223] {\r\n\tfloat: none;\r\n\ttext-align: left;\r\n\tpadding-bottom: 10px;\n}\n.movie-thumbnail-frame[data-v-26378223] {\r\n\tdisplay: block;\r\n\tmargin-left: auto;\r\n\tmargin-right: auto;\n}\n.form-input-field[data-v-26378223] {\r\n\twidth: 96.5%;\n}\nform[data-v-26378223] {\r\n\tmargin-left: 0;\n}\n}\n@media only screen and (max-width: 568px) {\n#mwrap[data-v-26378223] {\r\n\tpadding-top: 4%;\n}\nheader[data-v-26378223] {\r\n\tposition: absolute;\n}\n#titlelogo h1[data-v-26378223] {\r\n\tfont-size: 24px!important;\n}\n#titlelogo h2[data-v-26378223] {\r\n\tfont-size: 12px!important;\n}\n#extraContainer9[data-v-26378223] {\r\n\tfont-size: 32px!important;\r\n\tline-height: 32px;\r\n\tletter-spacing: 3px!important;\n}\n#extraContainer9[data-v-26378223]:after, #extraContainer8[data-v-26378223]:after {\r\n\tpadding-bottom: 6px;\n}\n#extraContainer8[data-v-26378223], .movie-page-title[data-v-26378223], #sideTitle[data-v-26378223] {\r\n\tfont-size: 28px!important;\n}\nh1.blog-entry-title a[data-v-26378223], #sideTitle[data-v-26378223] {\r\n\tfont-size: 24px!important;\n}\n.blog-entry-date[data-v-26378223] {\r\n\tfont-size: 15px;\n}\n.thumbnail-caption[data-v-26378223] {\r\n\tfont-size: 16px;\n}\n.movie-thumbnail-caption[data-v-26378223] {\r\n\tfont-size: 14px;\n}\nsection #padding[data-v-26378223], aside[data-v-26378223], #extraContainer2[data-v-26378223], #extraContainer3[data-v-26378223], #extraContainer4[data-v-26378223], #extraContainer5[data-v-26378223], #extraContainer6[data-v-26378223] {\r\n\tbackground-attachment: scroll!important;\n}\n#extraContainer2[data-v-26378223], #extraContainer3[data-v-26378223], #extraContainer4[data-v-26378223], #extraContainer5[data-v-26378223], #extraContainer6[data-v-26378223] {\r\n\tmargin-top: 40px;\n}\n#footer[data-v-26378223] {\r\n\tpadding-top: 20px;\r\n\ttext-align: left;\r\n\tpadding-bottom: 10px;\n}\n#padding .message-text[data-v-26378223] {\r\n\tfont-size: 20px!important;\n}\n.scrollup[data-v-26378223] {\r\n\topacity: 0!important;\n}\nsection h1[data-v-26378223], .album-title[data-v-26378223], .movie-page-title[data-v-26378223], .album-title[data-v-26378223], .filesharing-description[data-v-26378223], #padding .message-text[data-v-26378223], h1[data-v-26378223] {\r\n\tfont-size: 28px!important;\r\n\tline-height: 28px;\n}\nh1[data-v-26378223], section h1[data-v-26378223], #extraContainer2 h1[data-v-26378223], #extraContainer3 h1[data-v-26378223], #extraContainer4 h1[data-v-26378223], #extraContainer5 h1[data-v-26378223], #extraContainer6 h1[data-v-26378223] {font-size: 28px!important; line-height: 32px!important;}\nh2[data-v-26378223], section h2[data-v-26378223], #extraContainer2 h2[data-v-26378223], #extraContainer3 h2[data-v-26378223], #extraContainer4 h2[data-v-26378223], #extraContainer5 h2[data-v-26378223], #extraContainer6 h2[data-v-26378223] {font-size: 24px!important;}\nh3[data-v-26378223], section h3[data-v-26378223], #extraContainer2 h3[data-v-26378223], #extraContainer3 h3[data-v-26378223], #extraContainer4 h3[data-v-26378223], #extraContainer5 h3[data-v-26378223], #extraContainer6 h3[data-v-26378223] {font-size: 22px!important;}\nh4[data-v-26378223], section h4[data-v-26378223], #extraContainer2 h4[data-v-26378223], #extraContainer3 h4[data-v-26378223], #extraContainer4 h4[data-v-26378223], #extraContainer5 h4[data-v-26378223], #extraContainer6 h4[data-v-26378223] {font-size: 20px!important;}\nh5[data-v-26378223], section h5[data-v-26378223], #extraContainer2 h5[data-v-26378223], #extraContainer3 h5[data-v-26378223], #extraContainer4 h5[data-v-26378223], #extraContainer5 h5[data-v-26378223], #extraContainer6 h5[data-v-26378223] {font-size: 18px!important;}\nh6[data-v-26378223], section h6[data-v-26378223], #extraContainer2 h6[data-v-26378223], #extraContainer3 h6[data-v-26378223], #extraContainer4 h6[data-v-26378223], #extraContainer5 h6[data-v-26378223], #extraContainer6 h6[data-v-26378223] {font-size: 16px!important;}\n#blog-categories[data-v-26378223]:before, #blog-archives[data-v-26378223]:before, ul.blog-tag-cloud[data-v-26378223]:before, #blog-rss-feeds[data-v-26378223]:before {\r\n\tpadding-bottom: 0;\n}\n#blog-rss-feeds[data-v-26378223] {\r\n\tmargin-bottom: 20px;\n}\n.movie-thumbnail-frame[data-v-26378223]:hover{\r\n\tbackground-position: 55% 40%;\n}\n#padding .message-text[data-v-26378223] {\r\n\tfont-size: 20px!important;\n}\n}\n@media only screen and (max-width: 320px) {\n#extraContainer9[data-v-26378223] {\r\n\tfont-size: 18px!important;\r\n\tline-height: 18px;\n}\n#extraContainer9[data-v-26378223]:after {\r\n  border-bottom: 1px solid;\n}\n#extraContainer8[data-v-26378223], .movie-page-title[data-v-26378223], #sideTitle[data-v-26378223]  {\r\n\tfont-size: 24px!important;\n}\n#padding .message-text[data-v-26378223] {\r\n\tfont-size: 20px!important;\n}\n#titlelogo h1[data-v-26378223] {\r\n\tfont-size: 18px!important;\r\n\tmargin: 0.45em 0;\n}\n#mwrap[data-v-26378223] {\r\n\tpadding-top: 5%;\n}\n.movie-thumbnail-frame[data-v-26378223], .movie-thumbnail-frame img[data-v-26378223] {\r\n\twidth: 220px!important;\r\n\theight: 175px!important;\n}\nh1.blog-entry-title a[data-v-26378223], #sideTitle[data-v-26378223] {\r\n\tfont-size: 20px!important;\n}\n.movie-page-title[data-v-26378223], .album-title[data-v-26378223], #extraContainer8[data-v-26378223]  {\r\n\tpadding-top: 30px;\n}\n.album-title[data-v-26378223]:after, .movie-page-title[data-v-26378223]:after, #extraContainer8[data-v-26378223]:after  {\r\n\twidth: 15%;\n}\n.album-description[data-v-26378223], .movie-page-description[data-v-26378223] {padding: 0% 3% 0% 3%;}\n.form-input-button[data-v-26378223] {\r\n \tpadding: 7px 18px 7px 18px;\n}\n.thumbnail-wrap[data-v-26378223] {\r\n\twidth: 200px!important;\r\n\theight: 200px!important;\n}\n.thumbnail-frame img[data-v-26378223] {\r\n\twidth: 200px!important;\r\n\theight: 200px!important;\n}\n.thumbnail-frame[data-v-26378223]  {\r\n\twidth: 200px!important;\r\n\theight: 260px!important;\n}\n}\r\n\r\n", ""]);
+
+// exports
+
+
+/***/ }),
+
+/***/ "./node_modules/css-loader/index.js?!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/src/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/partials/Footer.vue?vue&type=style&index=0&id=bc338846&scoped=true&lang=css&":
+/*!*********************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/css-loader??ref--6-1!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/src??ref--6-2!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/components/partials/Footer.vue?vue&type=style&index=0&id=bc338846&scoped=true&lang=css& ***!
+  \*********************************************************************************************************************************************************************************************************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+exports = module.exports = __webpack_require__(/*! ../../../../node_modules/css-loader/lib/css-base.js */ "./node_modules/css-loader/lib/css-base.js")(false);
+// imports
+
+
+// module
+exports.push([module.i, "\nhtml[data-v-bc338846],\r\nbody[data-v-bc338846],\r\ndiv[data-v-bc338846],\r\nspan[data-v-bc338846],\r\nobject[data-v-bc338846],\r\niframe[data-v-bc338846],\r\nh1[data-v-bc338846],\r\nh2[data-v-bc338846],\r\nh3[data-v-bc338846],\r\nh4[data-v-bc338846],\r\nh5[data-v-bc338846],\r\nh6[data-v-bc338846],\r\np[data-v-bc338846],\r\nblockquote[data-v-bc338846],\r\npre[data-v-bc338846],\r\nabbr[data-v-bc338846],\r\naddress[data-v-bc338846],\r\ncite[data-v-bc338846],\r\ncode[data-v-bc338846],\r\ndel[data-v-bc338846],\r\ndfn[data-v-bc338846],\r\nem[data-v-bc338846],\r\nimg[data-v-bc338846],\r\nins[data-v-bc338846],\r\nkbd[data-v-bc338846],\r\nq[data-v-bc338846],\r\nsamp[data-v-bc338846],\r\nsmall[data-v-bc338846],\r\nstrong[data-v-bc338846],\r\nsub[data-v-bc338846],\r\nsup[data-v-bc338846],\r\nvar[data-v-bc338846],\r\nb[data-v-bc338846],\r\ni[data-v-bc338846],\r\ndl[data-v-bc338846],\r\ndt[data-v-bc338846],\r\ndd[data-v-bc338846],\r\nol[data-v-bc338846],\r\nul[data-v-bc338846],\r\nli[data-v-bc338846],\r\nfieldset[data-v-bc338846],\r\nform[data-v-bc338846],\r\nlabel[data-v-bc338846],\r\nlegend[data-v-bc338846],\r\ntable[data-v-bc338846],\r\ncaption[data-v-bc338846],\r\ntbody[data-v-bc338846],\r\ntfoot[data-v-bc338846],\r\nthead[data-v-bc338846],\r\ntr[data-v-bc338846],\r\nth[data-v-bc338846],\r\ntd[data-v-bc338846],\r\narticle[data-v-bc338846],\r\naside[data-v-bc338846],\r\ncanvas[data-v-bc338846],\r\ndetails[data-v-bc338846],\r\nfigcaption[data-v-bc338846],\r\nfigure[data-v-bc338846],\r\nfooter[data-v-bc338846],\r\nheader[data-v-bc338846],\r\nhgroup[data-v-bc338846],\r\nmenu[data-v-bc338846],\r\nnav[data-v-bc338846],\r\nsection[data-v-bc338846],\r\nsummary[data-v-bc338846],\r\ntime[data-v-bc338846],\r\nmark[data-v-bc338846],\r\naudio[data-v-bc338846],\r\nvideo[data-v-bc338846] {\r\n  margin: 0;\r\n  padding: 0;\r\n  border: 0;\r\n  outline: 0;\r\n  font-size: 100%;\r\n  background: transparent;\n}\narticle[data-v-bc338846],aside[data-v-bc338846],details[data-v-bc338846],figcaption[data-v-bc338846],figure[data-v-bc338846],footer[data-v-bc338846],header[data-v-bc338846],hgroup[data-v-bc338846],menu[data-v-bc338846],nav[data-v-bc338846],section[data-v-bc338846]{display:block;}\nfooter[data-v-bc338846] {\r\n  background-color: #000066;\n}\nfooter[data-v-bc338846] {\r\n  padding: 2% 5% 2% 5%;\n}\narticle[data-v-bc338846],\r\naside[data-v-bc338846],\r\ndetails[data-v-bc338846],\r\nfigcaption[data-v-bc338846],\r\nfigure[data-v-bc338846],\r\nfooter[data-v-bc338846],\r\nheader[data-v-bc338846],\r\nhgroup[data-v-bc338846],\r\nmenu[data-v-bc338846],\r\nnav[data-v-bc338846],\r\nsection[data-v-bc338846] {\r\n  display: block;\n}\n#footer[data-v-bc338846] {\r\n  font-size: 16px;\r\n  display: inline-block;\r\n      color: #FFFFFF;\r\nfont-size: 13px;\r\nfont-family: arial;\n}\n#container a[data-v-bc338846], #footer a[data-v-bc338846] {\r\n    color: #FF6600;\r\n    text-decoration: underline;\n}\n#container a[data-v-bc338846]:hover, #footer a[data-v-bc338846]:hover {\r\n    color: #909090;\r\n    font-family: arial;\r\n    text-decoration: underline;\n}\n@media only screen and (max-width: 767px) {\n#footer[data-v-bc338846] {\r\n    display: block;\r\n    padding-bottom: 10px;\n}\n#socialicons[data-v-bc338846],\r\n  #socialicons1[data-v-bc338846] {\r\n    float: none;\r\n    text-align: left;\r\n    padding-bottom: 10px;\n}\n.movie-thumbnail-frame[data-v-bc338846] {\r\n    display: block;\r\n    margin-left: auto;\r\n    margin-right: auto;\n}\n.form-input-field[data-v-bc338846] {\r\n    width: 96.5%;\n}\nform[data-v-bc338846] {\r\n    margin-left: 0;\n}\n}\n@media only screen and (max-width: 568px) {\n#footer[data-v-bc338846] {\r\n    padding-top: 20px;\r\n    text-align: left;\r\n    padding-bottom: 10px;\n}\n}\r\n", ""]);
 
 // exports
 
@@ -2542,7 +2635,7 @@ exports = module.exports = __webpack_require__(/*! ../../../../node_modules/css-
 
 
 // module
-exports.push([module.i, "\nhtml[data-v-40985fd2],body[data-v-40985fd2],div[data-v-40985fd2],span[data-v-40985fd2],object[data-v-40985fd2],iframe[data-v-40985fd2],h1[data-v-40985fd2],h2[data-v-40985fd2],h3[data-v-40985fd2],h4[data-v-40985fd2],h5[data-v-40985fd2],h6[data-v-40985fd2],p[data-v-40985fd2],blockquote[data-v-40985fd2],pre[data-v-40985fd2],abbr[data-v-40985fd2],address[data-v-40985fd2],cite[data-v-40985fd2],code[data-v-40985fd2],del[data-v-40985fd2],dfn[data-v-40985fd2],em[data-v-40985fd2],img[data-v-40985fd2],ins[data-v-40985fd2],kbd[data-v-40985fd2],q[data-v-40985fd2],samp[data-v-40985fd2],small[data-v-40985fd2],strong[data-v-40985fd2],sub[data-v-40985fd2],sup[data-v-40985fd2],var[data-v-40985fd2],b[data-v-40985fd2],i[data-v-40985fd2],dl[data-v-40985fd2],dt[data-v-40985fd2],dd[data-v-40985fd2],ol[data-v-40985fd2],ul[data-v-40985fd2],li[data-v-40985fd2],fieldset[data-v-40985fd2],form[data-v-40985fd2],label[data-v-40985fd2],legend[data-v-40985fd2],table[data-v-40985fd2],caption[data-v-40985fd2],tbody[data-v-40985fd2],tfoot[data-v-40985fd2],thead[data-v-40985fd2],tr[data-v-40985fd2],th[data-v-40985fd2],td[data-v-40985fd2],article[data-v-40985fd2],aside[data-v-40985fd2],canvas[data-v-40985fd2],details[data-v-40985fd2],figcaption[data-v-40985fd2],figure[data-v-40985fd2],footer[data-v-40985fd2],header[data-v-40985fd2],hgroup[data-v-40985fd2],menu[data-v-40985fd2],nav[data-v-40985fd2],section[data-v-40985fd2],summary[data-v-40985fd2],time[data-v-40985fd2],mark[data-v-40985fd2],audio[data-v-40985fd2],video[data-v-40985fd2]{margin:0;padding:0;border:0;outline:0;font-size:100%;background:transparent;}\narticle[data-v-40985fd2],aside[data-v-40985fd2],details[data-v-40985fd2],figcaption[data-v-40985fd2],figure[data-v-40985fd2],footer[data-v-40985fd2],header[data-v-40985fd2],hgroup[data-v-40985fd2],menu[data-v-40985fd2],nav[data-v-40985fd2],section[data-v-40985fd2]{display:block;}\n#titlelogo[data-v-40985fd2] {\r\n  display: inline-block;\r\n  float: left;\r\n  width: 25%;\r\n  padding-left: 3%;\n}\n#titlelogo h1[data-v-40985fd2] {\r\n  display: inline-block;\r\n  margin: 0.9em 0;\n}\n#titlelogo h2[data-v-40985fd2] {\r\n  letter-spacing: 2px;\r\n  line-height: 32px !important;\r\n  text-align: center;\r\n  display: none;\n}\n#logo[data-v-40985fd2] {\r\n  display: inline-block;\n}\n#nwrap[data-v-40985fd2] {\r\n  display: block;\r\n  float: right;\r\n  width: 70%;\n}\nheader[data-v-40985fd2]{\r\n\tposition: fixed;\r\n\ttop: 0;\r\n\twidth: 100%;\r\n\tz-index: 3000;\n}\n.photo-header navigation[data-v-40985fd2] {\r\n  margin: 20px auto 0 auto;\r\n  padding: 20px;\r\n  border-top: none;\r\n  height: 111px;\r\n  position: relative;\r\n  font-size: 2.5em;\r\n  text-align: center;\n}\nnav[data-v-40985fd2] {\r\n\tz-index: 10000;\r\n\ttext-align: right;\r\n\tletter-spacing: 1px;\r\n\tpadding-right: 3%;\r\n\tposition: relative;\n}\nnav > ul[data-v-40985fd2]{\r\n    position: relative;\n}\nnav ul li[data-v-40985fd2]  {\r\n\tdisplay: inline-block;\r\n\tposition: relative;\r\n\tpadding-bottom: 30px;\r\n\tpadding: 0 27px;\r\n\tpadding-top: 30px;\r\n\tpadding-bottom: 30px;\n}\nnav ul li a[data-v-40985fd2] {\r\n\tpadding-bottom: 30px;\n}\nnav ul li ul li a[data-v-40985fd2] {\r\n\tpadding-bottom: 0;\n}\nnav > ul > li#current[data-v-40985fd2]:after {\r\n\tcontent: \"\"; \r\n\tdisplay: block;\r\n\topacity: 1; \r\n\tborder-bottom: 1px solid;\r\n\tmargin: 0px auto; \r\n\twidth: 40%;\n}\nnav ul li[data-v-40985fd2]:after {\r\n\tcontent: \"\"; \r\n\tdisplay: block; \r\n\tborder-bottom: 1px solid;\r\n\tmargin: 0px auto;\r\n\twidth: 40%;\r\n\topacity: 0;\n}\nnav ul li[data-v-40985fd2]:hover:after {\r\n\tcontent: \"\"; \r\n\tdisplay: block; \r\n\tborder-bottom: 1px solid;\r\n\twidth: 40%;\r\n\topacity: 1;\n}\nnav ul li ul li[data-v-40985fd2]:hover:after {\r\n\topacity: 0;\n}\nnav ul li ul li[data-v-40985fd2]:after {\r\n\tcontent: \"\"; \r\n\tdisplay: block; \r\n\tborder-bottom: 1px solid;\r\n\twidth: 25%;\r\n\topacity: 0;\r\n\tpadding-bottom: 3px;\n}\nnav ul li ul li[data-v-40985fd2]:hover:after {\r\n\tcontent: \"\"; \r\n\tdisplay: block; \r\n\twidth: 25%;\r\n\topacity: 1;\r\n\tpadding-bottom: 3px;\n}\nnav ul li ul li[data-v-40985fd2]:hover{}\n.ie8 nav ul li[data-v-40985fd2]:after {\r\n\tdisplay: none;\n}\n.ie8 header nav > ul > li > a#currentAncestor[data-v-40985fd2]:after {\r\n\tdisplay: none;\n}\n.ie8 nav > ul > li#current[data-v-40985fd2]:after {\r\n\tdisplay: none;\n}\nnav ul ul[data-v-40985fd2] {\r\n    position: absolute;\r\n    display: none;\r\n    list-style: none;\r\n    line-height: 0;\r\n\tz-index: 1000;\r\n\tpadding-top: 12px;\r\n\tpadding-bottom: 6px;\r\n\twidth: 150px;\r\n\tleft: 50%;\r\n\tmargin-left: -75px;\n}\nnav li li[data-v-40985fd2] {\r\n\ttext-shadow: none;\r\n\tline-height: 0px;\r\n    position: relative;\r\n\tdisplay: block;\r\n\tpadding: 0;  \r\n   \tfont-size: 12px;\r\n   \tline-height: 14px;\r\n  \tpadding: 7px 20px 7px 20px;\n}\nnav li li a[data-v-40985fd2]{\r\n    display: block;\r\n    font-size: 12px;\r\n   \ttext-shadow: none;\r\n   \tline-height: 18px;\r\n   \ttext-align: center;\n}\nnav li li a[data-v-40985fd2]:hover {}\nnav li li li li li[data-v-40985fd2]{\r\n\tdisplay: none;\n}\nnav[data-v-40985fd2] {\r\n  text-align: right;\r\n  letter-spacing: 1px;\n}\nnav > ul > li#current[data-v-40985fd2]:after {\r\n  content: \"\";\r\n  display: block;\r\n  opacity: 1;\r\n  border-bottom: 1px solid;\r\n  margin: 0px auto;\r\n  width: 40%;\n}\nul.disc[data-v-40985fd2] { list-style-type: disc; padding-left: 20px;}\nul.circle[data-v-40985fd2]{ list-style-type: circle; padding-left: 20px;}\nul.square[data-v-40985fd2]{ list-style-type: square; padding-left: 20px;}\nol.arabic-numbers[data-v-40985fd2]{ list-style-type: decimal; padding-left: 20px;}\nol.upper-alpha[data-v-40985fd2]{ list-style-type: upper-alpha; padding-left: 20px;}\nol.lower-alpha[data-v-40985fd2]{ list-style-type: lower-alpha; padding-left: 20px;}\nol.upper-roman[data-v-40985fd2]{ list-style-type: upper-roman; padding-left: 20px;}\nol.lower-roman[data-v-40985fd2]{ list-style-type: lower-roman; padding-left: 20px;}\r\n\r\n\r\n", ""]);
+exports.push([module.i, "\nhtml[data-v-40985fd2],\r\nbody[data-v-40985fd2],\r\ndiv[data-v-40985fd2],\r\nspan[data-v-40985fd2],\r\nobject[data-v-40985fd2],\r\niframe[data-v-40985fd2],\r\nh1[data-v-40985fd2],\r\nh2[data-v-40985fd2],\r\nh3[data-v-40985fd2],\r\nh4[data-v-40985fd2],\r\nh5[data-v-40985fd2],\r\nh6[data-v-40985fd2],\r\np[data-v-40985fd2],\r\nblockquote[data-v-40985fd2],\r\npre[data-v-40985fd2],\r\nabbr[data-v-40985fd2],\r\naddress[data-v-40985fd2],\r\ncite[data-v-40985fd2],\r\ncode[data-v-40985fd2],\r\ndel[data-v-40985fd2],\r\ndfn[data-v-40985fd2],\r\nem[data-v-40985fd2],\r\nimg[data-v-40985fd2],\r\nins[data-v-40985fd2],\r\nkbd[data-v-40985fd2],\r\nq[data-v-40985fd2],\r\nsamp[data-v-40985fd2],\r\nsmall[data-v-40985fd2],\r\nstrong[data-v-40985fd2],\r\nsub[data-v-40985fd2],\r\nsup[data-v-40985fd2],\r\nvar[data-v-40985fd2],\r\nb[data-v-40985fd2],\r\ni[data-v-40985fd2],\r\ndl[data-v-40985fd2],\r\ndt[data-v-40985fd2],\r\ndd[data-v-40985fd2],\r\nol[data-v-40985fd2],\r\nul[data-v-40985fd2],\r\nli[data-v-40985fd2],\r\nfieldset[data-v-40985fd2],\r\nform[data-v-40985fd2],\r\nlabel[data-v-40985fd2],\r\nlegend[data-v-40985fd2],\r\ntable[data-v-40985fd2],\r\ncaption[data-v-40985fd2],\r\ntbody[data-v-40985fd2],\r\ntfoot[data-v-40985fd2],\r\nthead[data-v-40985fd2],\r\ntr[data-v-40985fd2],\r\nth[data-v-40985fd2],\r\ntd[data-v-40985fd2],\r\narticle[data-v-40985fd2],\r\naside[data-v-40985fd2],\r\ncanvas[data-v-40985fd2],\r\ndetails[data-v-40985fd2],\r\nfigcaption[data-v-40985fd2],\r\nfigure[data-v-40985fd2],\r\nfooter[data-v-40985fd2],\r\nheader[data-v-40985fd2],\r\nhgroup[data-v-40985fd2],\r\nmenu[data-v-40985fd2],\r\nnav[data-v-40985fd2],\r\nsection[data-v-40985fd2],\r\nsummary[data-v-40985fd2],\r\ntime[data-v-40985fd2],\r\nmark[data-v-40985fd2],\r\naudio[data-v-40985fd2],\r\nvideo[data-v-40985fd2] {\r\n  margin: 0;\r\n  padding: 0;\r\n  border: 0;\r\n  outline: 0;\r\n  font-size: 100%;\r\n  background: transparent;\n}\narticle[data-v-40985fd2],\r\naside[data-v-40985fd2],\r\ndetails[data-v-40985fd2],\r\nfigcaption[data-v-40985fd2],\r\nfigure[data-v-40985fd2],\r\nfooter[data-v-40985fd2],\r\nheader[data-v-40985fd2],\r\nhgroup[data-v-40985fd2],\r\nmenu[data-v-40985fd2],\r\nnav[data-v-40985fd2],\r\nsection[data-v-40985fd2] {\r\n  display: block;\n}\n#titlelogo[data-v-40985fd2] {\r\n  display: inline-block;\r\n  float: left;\r\n  width: 25%;\r\n  padding-left: 3%;\n}\n#titlelogo h1[data-v-40985fd2] {\r\n  display: inline-block;\r\n  margin: 0.9em 0;\n}\n#titlelogo h2[data-v-40985fd2] {\r\n  letter-spacing: 2px;\r\n  line-height: 32px !important;\r\n  text-align: center;\r\n  display: none;\n}\n#logo[data-v-40985fd2] {\r\n  display: inline-block;\n}\n#lt[data-v-40985fd2],\r\n#lm[data-v-40985fd2],\r\n#lb[data-v-40985fd2] {\r\n  width: 20px;\r\n  height: 3px;\r\n  margin-bottom: 2px;\n}\n#mwrap[data-v-40985fd2] {\r\n  display: inline-block;\r\n  float: right;\r\n  padding-right: 3%;\r\n  padding-top: 4%;\r\n  display: none;\r\n  z-index: 1000;\n}\n#nwrap[data-v-40985fd2] {\r\n  display: block;\r\n  float: right;\r\n  width: 70%;\n}\nheader[data-v-40985fd2] {\r\n  position: fixed;\r\n  top: 0;\r\n  width: 100%;\r\n  z-index: 3000;\n}\n.photo-header navigation[data-v-40985fd2] {\r\n  margin: 20px auto 0 auto;\r\n  padding: 20px;\r\n  border-top: none;\r\n  height: 111px;\r\n  position: relative;\r\n  font-size: 2.5em;\r\n  text-align: center;\n}\nnav[data-v-40985fd2] {\r\n  z-index: 10000;\r\n  text-align: right;\r\n  letter-spacing: 1px;\r\n  padding-right: 3%;\r\n  position: relative;\n}\nnav > ul[data-v-40985fd2] {\r\n  position: relative;\n}\nnav ul li[data-v-40985fd2] {\r\n  display: inline-block;\r\n  position: relative;\r\n  padding-bottom: 30px;\r\n  padding: 0 27px;\r\n  padding-top: 30px;\r\n  padding-bottom: 30px;\n}\nnav ul li a[data-v-40985fd2] {\r\n  padding-bottom: 30px;\n}\nnav ul li ul li a[data-v-40985fd2] {\r\n  padding-bottom: 0;\n}\nnav > ul > li#current[data-v-40985fd2]:after {\r\n  content: \"\";\r\n  display: block;\r\n  opacity: 1;\r\n  border-bottom: 1px solid;\r\n  margin: 0px auto;\r\n  width: 40%;\n}\nnav ul li[data-v-40985fd2]:after {\r\n  content: \"\";\r\n  display: block;\r\n  border-bottom: 1px solid;\r\n  margin: 0px auto;\r\n  width: 40%;\r\n  opacity: 0;\n}\nnav ul li[data-v-40985fd2]:hover:after {\r\n  content: \"\";\r\n  display: block;\r\n  border-bottom: 1px solid;\r\n  width: 40%;\r\n  opacity: 1;\n}\nnav ul li ul li[data-v-40985fd2]:hover:after {\r\n  opacity: 0;\n}\nnav ul li ul li[data-v-40985fd2]:after {\r\n  content: \"\";\r\n  display: block;\r\n  border-bottom: 1px solid;\r\n  width: 25%;\r\n  opacity: 0;\r\n  padding-bottom: 3px;\n}\nnav ul li ul li[data-v-40985fd2]:hover:after {\r\n  content: \"\";\r\n  display: block;\r\n  width: 25%;\r\n  opacity: 1;\r\n  padding-bottom: 3px;\n}\nnav ul li ul li[data-v-40985fd2]:hover {\n}\n.ie8 nav ul li[data-v-40985fd2]:after {\r\n  display: none;\n}\n.ie8 header nav > ul > li > a#currentAncestor[data-v-40985fd2]:after {\r\n  display: none;\n}\n.ie8 nav > ul > li#current[data-v-40985fd2]:after {\r\n  display: none;\n}\nnav ul ul[data-v-40985fd2] {\r\n  position: absolute;\r\n  display: none;\r\n  list-style: none;\r\n  line-height: 0;\r\n  z-index: 1000;\r\n  padding-top: 12px;\r\n  padding-bottom: 6px;\r\n  width: 150px;\r\n  left: 50%;\r\n  margin-left: -75px;\n}\nnav li li[data-v-40985fd2] {\r\n  text-shadow: none;\r\n  line-height: 0px;\r\n  position: relative;\r\n  display: block;\r\n  padding: 0;\r\n  font-size: 12px;\r\n  line-height: 14px;\r\n  padding: 7px 20px 7px 20px;\n}\nnav li li a[data-v-40985fd2] {\r\n  display: block;\r\n  font-size: 12px;\r\n  text-shadow: none;\r\n  line-height: 18px;\r\n  text-align: center;\n}\nnav li li a[data-v-40985fd2]:hover {\n}\nnav li li li li li[data-v-40985fd2] {\r\n  display: none;\n}\nnav[data-v-40985fd2] {\r\n  text-align: right;\r\n  letter-spacing: 1px;\n}\nnav > ul > li#current[data-v-40985fd2]:after {\r\n  content: \"\";\r\n  display: block;\r\n  opacity: 1;\r\n  border-bottom: 1px solid;\r\n  margin: 0px auto;\r\n  width: 40%;\n}\nul.disc[data-v-40985fd2] {\r\n  list-style-type: disc;\r\n  padding-left: 20px;\n}\nul.circle[data-v-40985fd2] {\r\n  list-style-type: circle;\r\n  padding-left: 20px;\n}\nul.square[data-v-40985fd2] {\r\n  list-style-type: square;\r\n  padding-left: 20px;\n}\nol.arabic-numbers[data-v-40985fd2] {\r\n  list-style-type: decimal;\r\n  padding-left: 20px;\n}\nol.upper-alpha[data-v-40985fd2] {\r\n  list-style-type: upper-alpha;\r\n  padding-left: 20px;\n}\nol.lower-alpha[data-v-40985fd2] {\r\n  list-style-type: lower-alpha;\r\n  padding-left: 20px;\n}\nol.upper-roman[data-v-40985fd2] {\r\n  list-style-type: upper-roman;\r\n  padding-left: 20px;\n}\nol.lower-roman[data-v-40985fd2] {\r\n  list-style-type: lower-roman;\r\n  padding-left: 20px;\n}\n@media only screen and (max-width: 1060px) {\nnav ul li[data-v-40985fd2] {\r\n    padding-left: 21px;\r\n    padding-right: 21px;\n}\n}\n@media only screen and (min-width: 1024px) and (max-width: 1024px) {\nsection #padding[data-v-40985fd2],\r\n  aside[data-v-40985fd2],\r\n  #extraContainer2[data-v-40985fd2],\r\n  #extraContainer3[data-v-40985fd2],\r\n  #extraContainer4[data-v-40985fd2],\r\n  #extraContainer5[data-v-40985fd2],\r\n  #extraContainer6[data-v-40985fd2] {\r\n    background-attachment: scroll !important;\n}\nnav > ul > li > ul[data-v-40985fd2] {\r\n    top: 83px;\n}\nbody[data-v-40985fd2] {\r\n    -webkit-text-size-adjust: none;\n}\n}\n@media only screen and (max-width: 960px) {\n#nwrap[data-v-40985fd2] {\r\n    width: 100%;\r\n    padding-top: 0;\n}\n#mwrap[data-v-40985fd2] {\r\n    display: block;\n}\n.show[data-v-40985fd2] {\r\n    display: block !important;\n}\nnav[data-v-40985fd2] {\r\n    display: none;\r\n    padding-top: 0;\r\n    position: absolute;\r\n    text-align: center;\r\n    margin: 0 auto;\r\n    width: 100%;\r\n    padding-bottom: 10px;\n}\nnav ul[data-v-40985fd2] {\r\n    width: 100%;\r\n    padding-top: 10px;\r\n    padding-bottom: 10px;\n}\nnav ul li[data-v-40985fd2] {\r\n    display: block;\r\n    padding-bottom: 10px;\r\n    padding-top: 10px;\r\n    padding-right: 0;\r\n    padding-left: 0;\r\n    background: none;\n}\nnav ul ul[data-v-40985fd2] {\r\n    background: none;\n}\nnav ul ul[data-v-40985fd2] {\r\n    position: relative;\r\n    padding-top: 10px;\r\n    width: 100%;\r\n    text-align: center;\r\n    margin-left: 0;\n}\nnav li li[data-v-40985fd2] {\r\n    margin: 5px auto;\n}\nnav li li a[data-v-40985fd2] {\r\n    font-size: 11px;\n}\nnav li li:hover ul[data-v-40985fd2] {\r\n    left: 0;\r\n    top: 0;\n}\nnav > ul > li > a[data-v-40985fd2] {\r\n    padding-top: 0;\n}\nnav > ul > li > ul[data-v-40985fd2] {\r\n    top: 35px;\n}\nnav ul li ul li[data-v-40985fd2] {\r\n    display: block;\r\n    padding: 0;\r\n    padding-top: 5px;\n}\n.ie9 nav > ul > li > ul[data-v-40985fd2] {\r\n    top: 5px;\r\n    left: 0;\n}\n.ie8 nav > ul > li > ul[data-v-40985fd2] {\r\n    top: 5px;\r\n    left: 0;\n}\nnav > ul > li > ul[data-v-40985fd2] {\r\n    top: 5px;\r\n    left: 0;\n}\nnav > ul > li#current[data-v-40985fd2]:after,\r\n  header nav > ul > li#currentAncestor[data-v-40985fd2]::after,\r\n  nav ul li[data-v-40985fd2]:hover:after {\r\n    border: none;\n}\nnav ul li ul li a[data-v-40985fd2]:hover:after {\r\n    width: 5%;\n}\nnav ul li a[data-v-40985fd2]:after {\r\n    content: \"\";\r\n    display: block;\r\n    border-bottom: 1px solid #fff;\r\n    margin: 0px auto;\r\n    width: 4%;\r\n    padding-bottom: 5px;\r\n    opacity: 0;\n}\nnav ul li a[data-v-40985fd2]:hover:after {\r\n    opacity: 1;\n}\nnav ul li ul li[data-v-40985fd2]:hover:after {\r\n    opacity: 0;\n}\nnav > ul > li > a#current[data-v-40985fd2]:after,\r\n  nav ul li a[data-v-40985fd2]:hover:after,\r\n  header nav > ul > li > a#currentAncestor[data-v-40985fd2]::after {\r\n    content: \"\";\r\n    display: block;\r\n    border-bottom: 1px solid #fff;\r\n    margin: 0px auto;\r\n    width: 4%;\r\n    padding-bottom: 5px;\n}\n}\n@media only screen and (min-width: 768px) and (max-width: 768px) {\nsection #padding[data-v-40985fd2],\r\n  aside[data-v-40985fd2],\r\n  #extraContainer2[data-v-40985fd2],\r\n  #extraContainer3[data-v-40985fd2],\r\n  #extraContainer4[data-v-40985fd2],\r\n  #extraContainer5[data-v-40985fd2],\r\n  #extraContainer6[data-v-40985fd2] {\r\n    background-attachment: scroll !important;\n}\n#sideTitle[data-v-40985fd2] {\r\n    margin-top: 26px;\n}\n}\n@media only screen and (max-width: 768px) {\n#mwrap[data-v-40985fd2] {\r\n    padding-top: 3.5%;\n}\n#extraContainer9[data-v-40985fd2] {\r\n    letter-spacing: 6px;\n}\nbody[data-v-40985fd2] {\r\n    -webkit-text-size-adjust: none;\n}\n.form-input-field[data-v-40985fd2] {\r\n    width: 90%;\n}\nform[data-v-40985fd2] {\r\n    margin-left: 0;\n}\n}\n.desktopScreenNavbar[data-v-40985fd2],\r\nnav ul ul[data-v-40985fd2],\r\n.navb[data-v-40985fd2],\r\n.mobileScreenNavbar[data-v-40985fd2],\r\n.mobileb[data-v-40985fd2] {\r\n  background-color: rgba(255, 255, 255, 0.9);\n}\n.navul[data-v-40985fd2] {\r\n  background: none;\n}\n@media only screen and (max-width: 767px) {\n#footer[data-v-40985fd2] {\r\n    display: block;\r\n    padding-bottom: 10px;\n}\n#socialicons[data-v-40985fd2],\r\n  #socialicons1[data-v-40985fd2] {\r\n    float: none;\r\n    text-align: left;\r\n    padding-bottom: 10px;\n}\n.movie-thumbnail-frame[data-v-40985fd2] {\r\n    display: block;\r\n    margin-left: auto;\r\n    margin-right: auto;\n}\n.form-input-field[data-v-40985fd2] {\r\n    width: 96.5%;\n}\nform[data-v-40985fd2] {\r\n    margin-left: 0;\n}\n}\n@media only screen and (max-width: 568px) {\n#mwrap[data-v-40985fd2] {\r\n    padding-top: 4%;\n}\nheader[data-v-40985fd2] {\r\n    position: absolute;\n}\n#titlelogo h1[data-v-40985fd2] {\r\n    font-size: 24px !important;\n}\n#titlelogo h2[data-v-40985fd2] {\r\n    font-size: 12px !important;\n}\n#extraContainer9[data-v-40985fd2] {\r\n    font-size: 32px !important;\r\n    line-height: 32px;\r\n    letter-spacing: 3px !important;\n}\n#extraContainer9[data-v-40985fd2]:after,\r\n  #extraContainer8[data-v-40985fd2]:after {\r\n    padding-bottom: 6px;\n}\n#extraContainer8[data-v-40985fd2],\r\n  .movie-page-title[data-v-40985fd2],\r\n  #sideTitle[data-v-40985fd2] {\r\n    font-size: 28px !important;\n}\nh1.blog-entry-title a[data-v-40985fd2],\r\n  #sideTitle[data-v-40985fd2] {\r\n    font-size: 24px !important;\n}\n.blog-entry-date[data-v-40985fd2] {\r\n    font-size: 15px;\n}\n.thumbnail-caption[data-v-40985fd2] {\r\n    font-size: 16px;\n}\n.movie-thumbnail-caption[data-v-40985fd2] {\r\n    font-size: 14px;\n}\nsection #padding[data-v-40985fd2],\r\n  aside[data-v-40985fd2],\r\n  #extraContainer2[data-v-40985fd2],\r\n  #extraContainer3[data-v-40985fd2],\r\n  #extraContainer4[data-v-40985fd2],\r\n  #extraContainer5[data-v-40985fd2],\r\n  #extraContainer6[data-v-40985fd2] {\r\n    background-attachment: scroll !important;\n}\n#extraContainer2[data-v-40985fd2],\r\n  #extraContainer3[data-v-40985fd2],\r\n  #extraContainer4[data-v-40985fd2],\r\n  #extraContainer5[data-v-40985fd2],\r\n  #extraContainer6[data-v-40985fd2] {\r\n    margin-top: 40px;\n}\n#footer[data-v-40985fd2] {\r\n    padding-top: 20px;\r\n    text-align: left;\r\n    padding-bottom: 10px;\n}\n#padding .message-text[data-v-40985fd2] {\r\n    font-size: 20px !important;\n}\n.scrollup[data-v-40985fd2] {\r\n    opacity: 0 !important;\n}\nsection h1[data-v-40985fd2],\r\n  .album-title[data-v-40985fd2],\r\n  .movie-page-title[data-v-40985fd2],\r\n  .album-title[data-v-40985fd2],\r\n  .filesharing-description[data-v-40985fd2],\r\n  #padding .message-text[data-v-40985fd2],\r\n  h1[data-v-40985fd2] {\r\n    font-size: 28px !important;\r\n    line-height: 28px;\n}\nh1[data-v-40985fd2],\r\n  section h1[data-v-40985fd2],\r\n  #extraContainer2 h1[data-v-40985fd2],\r\n  #extraContainer3 h1[data-v-40985fd2],\r\n  #extraContainer4 h1[data-v-40985fd2],\r\n  #extraContainer5 h1[data-v-40985fd2],\r\n  #extraContainer6 h1[data-v-40985fd2] {\r\n    font-size: 28px !important;\r\n    line-height: 32px !important;\n}\nh2[data-v-40985fd2],\r\n  section h2[data-v-40985fd2],\r\n  #extraContainer2 h2[data-v-40985fd2],\r\n  #extraContainer3 h2[data-v-40985fd2],\r\n  #extraContainer4 h2[data-v-40985fd2],\r\n  #extraContainer5 h2[data-v-40985fd2],\r\n  #extraContainer6 h2[data-v-40985fd2] {\r\n    font-size: 24px !important;\n}\nh3[data-v-40985fd2],\r\n  section h3[data-v-40985fd2],\r\n  #extraContainer2 h3[data-v-40985fd2],\r\n  #extraContainer3 h3[data-v-40985fd2],\r\n  #extraContainer4 h3[data-v-40985fd2],\r\n  #extraContainer5 h3[data-v-40985fd2],\r\n  #extraContainer6 h3[data-v-40985fd2] {\r\n    font-size: 22px !important;\n}\nh4[data-v-40985fd2],\r\n  section h4[data-v-40985fd2],\r\n  #extraContainer2 h4[data-v-40985fd2],\r\n  #extraContainer3 h4[data-v-40985fd2],\r\n  #extraContainer4 h4[data-v-40985fd2],\r\n  #extraContainer5 h4[data-v-40985fd2],\r\n  #extraContainer6 h4[data-v-40985fd2] {\r\n    font-size: 20px !important;\n}\nh5[data-v-40985fd2],\r\n  section h5[data-v-40985fd2],\r\n  #extraContainer2 h5[data-v-40985fd2],\r\n  #extraContainer3 h5[data-v-40985fd2],\r\n  #extraContainer4 h5[data-v-40985fd2],\r\n  #extraContainer5 h5[data-v-40985fd2],\r\n  #extraContainer6 h5[data-v-40985fd2] {\r\n    font-size: 18px !important;\n}\nh6[data-v-40985fd2],\r\n  section h6[data-v-40985fd2],\r\n  #extraContainer2 h6[data-v-40985fd2],\r\n  #extraContainer3 h6[data-v-40985fd2],\r\n  #extraContainer4 h6[data-v-40985fd2],\r\n  #extraContainer5 h6[data-v-40985fd2],\r\n  #extraContainer6 h6[data-v-40985fd2] {\r\n    font-size: 16px !important;\n}\n#blog-categories[data-v-40985fd2]:before,\r\n  #blog-archives[data-v-40985fd2]:before,\r\n  ul.blog-tag-cloud[data-v-40985fd2]:before,\r\n  #blog-rss-feeds[data-v-40985fd2]:before {\r\n    padding-bottom: 0;\n}\n#blog-rss-feeds[data-v-40985fd2] {\r\n    margin-bottom: 20px;\n}\n.movie-thumbnail-frame[data-v-40985fd2]:hover {\r\n    background-position: 55% 40%;\n}\n#padding .message-text[data-v-40985fd2] {\r\n    font-size: 20px !important;\n}\n}\n@media only screen and (max-width: 320px) {\n#extraContainer9[data-v-40985fd2] {\r\n    font-size: 18px !important;\r\n    line-height: 18px;\n}\n#extraContainer9[data-v-40985fd2]:after {\r\n    border-bottom: 1px solid;\n}\n#extraContainer8[data-v-40985fd2],\r\n  .movie-page-title[data-v-40985fd2],\r\n  #sideTitle[data-v-40985fd2] {\r\n    font-size: 24px !important;\n}\n#padding .message-text[data-v-40985fd2] {\r\n    font-size: 20px !important;\n}\n#titlelogo h1[data-v-40985fd2] {\r\n    font-size: 18px !important;\r\n    margin: 0.45em 0;\n}\n#mwrap[data-v-40985fd2] {\r\n    padding-top: 5%;\n}\n.movie-thumbnail-frame[data-v-40985fd2],\r\n  .movie-thumbnail-frame img[data-v-40985fd2] {\r\n    width: 220px !important;\r\n    height: 175px !important;\n}\nh1.blog-entry-title a[data-v-40985fd2],\r\n  #sideTitle[data-v-40985fd2] {\r\n    font-size: 20px !important;\n}\n.movie-page-title[data-v-40985fd2],\r\n  .album-title[data-v-40985fd2],\r\n  #extraContainer8[data-v-40985fd2] {\r\n    padding-top: 30px;\n}\n.album-title[data-v-40985fd2]:after,\r\n  .movie-page-title[data-v-40985fd2]:after,\r\n  #extraContainer8[data-v-40985fd2]:after {\r\n    width: 15%;\n}\n.album-description[data-v-40985fd2],\r\n  .movie-page-description[data-v-40985fd2] {\r\n    padding: 0% 3% 0% 3%;\n}\n.form-input-button[data-v-40985fd2] {\r\n    padding: 7px 18px 7px 18px;\n}\n.thumbnail-wrap[data-v-40985fd2] {\r\n    width: 200px !important;\r\n    height: 200px !important;\n}\n.thumbnail-frame img[data-v-40985fd2] {\r\n    width: 200px !important;\r\n    height: 200px !important;\n}\n.thumbnail-frame[data-v-40985fd2] {\r\n    width: 200px !important;\r\n    height: 260px !important;\n}\n}\r\n", ""]);
 
 // exports
 
@@ -3052,6 +3145,66 @@ options.transform = transform
 options.insertInto = undefined;
 
 var update = __webpack_require__(/*! ../../../node_modules/style-loader/lib/addStyles.js */ "./node_modules/style-loader/lib/addStyles.js")(content, options);
+
+if(content.locals) module.exports = content.locals;
+
+if(false) {}
+
+/***/ }),
+
+/***/ "./node_modules/style-loader/index.js!./node_modules/css-loader/index.js?!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/src/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/contactUs.vue?vue&type=style&index=0&id=26378223&scoped=true&lang=css&":
+/*!*******************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/style-loader!./node_modules/css-loader??ref--6-1!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/src??ref--6-2!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/components/contactUs.vue?vue&type=style&index=0&id=26378223&scoped=true&lang=css& ***!
+  \*******************************************************************************************************************************************************************************************************************************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+
+var content = __webpack_require__(/*! !../../../node_modules/css-loader??ref--6-1!../../../node_modules/vue-loader/lib/loaders/stylePostLoader.js!../../../node_modules/postcss-loader/src??ref--6-2!../../../node_modules/vue-loader/lib??vue-loader-options!./contactUs.vue?vue&type=style&index=0&id=26378223&scoped=true&lang=css& */ "./node_modules/css-loader/index.js?!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/src/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/contactUs.vue?vue&type=style&index=0&id=26378223&scoped=true&lang=css&");
+
+if(typeof content === 'string') content = [[module.i, content, '']];
+
+var transform;
+var insertInto;
+
+
+
+var options = {"hmr":true}
+
+options.transform = transform
+options.insertInto = undefined;
+
+var update = __webpack_require__(/*! ../../../node_modules/style-loader/lib/addStyles.js */ "./node_modules/style-loader/lib/addStyles.js")(content, options);
+
+if(content.locals) module.exports = content.locals;
+
+if(false) {}
+
+/***/ }),
+
+/***/ "./node_modules/style-loader/index.js!./node_modules/css-loader/index.js?!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/src/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/partials/Footer.vue?vue&type=style&index=0&id=bc338846&scoped=true&lang=css&":
+/*!*************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/style-loader!./node_modules/css-loader??ref--6-1!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/src??ref--6-2!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/components/partials/Footer.vue?vue&type=style&index=0&id=bc338846&scoped=true&lang=css& ***!
+  \*************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+
+var content = __webpack_require__(/*! !../../../../node_modules/css-loader??ref--6-1!../../../../node_modules/vue-loader/lib/loaders/stylePostLoader.js!../../../../node_modules/postcss-loader/src??ref--6-2!../../../../node_modules/vue-loader/lib??vue-loader-options!./Footer.vue?vue&type=style&index=0&id=bc338846&scoped=true&lang=css& */ "./node_modules/css-loader/index.js?!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/src/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/partials/Footer.vue?vue&type=style&index=0&id=bc338846&scoped=true&lang=css&");
+
+if(typeof content === 'string') content = [[module.i, content, '']];
+
+var transform;
+var insertInto;
+
+
+
+var options = {"hmr":true}
+
+options.transform = transform
+options.insertInto = undefined;
+
+var update = __webpack_require__(/*! ../../../../node_modules/style-loader/lib/addStyles.js */ "./node_modules/style-loader/lib/addStyles.js")(content, options);
 
 if(content.locals) module.exports = content.locals;
 
@@ -4181,10 +4334,7 @@ var staticRenderFns = [
       _c("div", { staticClass: "banner video_banner" }, [
         _c("div", { staticClass: "bghide", attrs: { id: "feature" } }, [
           _c("img", {
-            attrs: {
-              id: "featureImg",
-              src: "https://cdainterview.com/resources/contact-us.png"
-            }
+            attrs: { id: "featureImg", src: "/images/contact-us.png" }
           }),
           _vm._v(" "),
           _c("div", { attrs: { id: "extraContainer11" } }, [
@@ -4198,8 +4348,6 @@ var staticRenderFns = [
           _c("div", { attrs: { id: "extraContainer9" } })
         ])
       ]),
-      _vm._v(" "),
-      _c("div", { staticClass: "clear" }),
       _vm._v(" "),
       _c("div", { attrs: { id: "container" } }, [
         _c("div", { attrs: { id: "extraContainer7" } }),
@@ -4420,7 +4568,7 @@ var staticRenderFns = [
                     attrs: {
                       type: "hidden",
                       name: "form_token",
-                      value: "12202946185f6cdfc8bf489"
+                      value: "1158479835f6d1cb63826c"
                     }
                   }),
                   _vm._v(" "),
@@ -4536,53 +4684,42 @@ var staticRenderFns = [
     var _vm = this
     var _h = _vm.$createElement
     var _c = _vm._self._c || _h
-    return _c("div", { staticStyle: { "background-color": "#000066" } }, [
-      _c(
-        "div",
-        {
-          staticStyle: {
-            "font-size": "13px",
-            "font-family": "arial",
-            color: "#FFFFFF"
+    return _c("footer", [
+      _c("div", { attrs: { id: "footer" } }, [
+        _vm._v(
+          "\n    ©2013-2016 BeMo Academic Consulting Inc. All rights reserved.\n    "
+        ),
+        _c(
+          "a",
+          {
+            attrs: {
+              href:
+                "http://www.cdainterview.com/disclaimer-privacy-policy.html",
+              target: "_blank"
+            }
           },
-          attrs: { id: "footer" }
-        },
-        [
-          _vm._v(
-            "\n    ©2013-2016 BeMo Academic Consulting Inc. All rights reserved.\n    "
-          ),
-          _c(
-            "a",
-            {
-              attrs: {
-                href:
-                  "http://www.cdainterview.com/disclaimer-privacy-policy.html",
-                target: "_blank"
-              }
-            },
-            [
-              _c("span", { staticStyle: { "text-decoration": "underline" } }, [
-                _vm._v("Disclaimer & Privacy Policy")
-              ])
-            ]
-          ),
-          _vm._v(" "),
-          _c(
-            "a",
-            {
-              attrs: {
-                href: "mailto:info@bemoacademicconsulting.com",
-                id: "rw_email_contact"
-              }
-            },
-            [
-              _c("span", { staticStyle: { "text-decoration": "underline" } }, [
-                _vm._v("Contact Us")
-              ])
-            ]
-          )
-        ]
-      ),
+          [
+            _c("span", { staticStyle: { "text-decoration": "underline" } }, [
+              _vm._v("Disclaimer & Privacy Policy")
+            ])
+          ]
+        ),
+        _vm._v(" "),
+        _c(
+          "a",
+          {
+            attrs: {
+              href: "mailto:info@bemoacademicconsulting.com",
+              id: "rw_email_contact"
+            }
+          },
+          [
+            _c("span", { staticStyle: { "text-decoration": "underline" } }, [
+              _vm._v("Contact Us")
+            ])
+          ]
+        )
+      ]),
       _vm._v(" "),
       _c("div", { attrs: { id: "socialicons" } }, [
         _c("div", { attrs: { id: "socialicons1" } }),
@@ -4638,13 +4775,14 @@ var staticRenderFns = [
     return _c(
       "header",
       {
-        staticClass: "navbar navbar-default navbar-inverse navbar-fixed-top",
+        staticClass:
+          "navbar navbar-default navbar-inverse navbar-fixed-top mobileb",
         attrs: { role: "navigation" }
       },
       [
         _c("div", { attrs: { id: "headwrap" } }, [
           _c("div", { attrs: { id: "titlelogo" } }, [
-            _c("a", { attrs: { href: "https://cdainterview.com/" } }, [
+            _c("a", { attrs: { href: "/" } }, [
               _c("div", { attrs: { id: "logo" } }, [
                 _c("img", {
                   attrs: {
@@ -4660,61 +4798,55 @@ var staticRenderFns = [
             ]),
             _vm._v(" "),
             _c("h2")
-          ]),
+          ])
+        ]),
+        _vm._v(" "),
+        _c("div", { attrs: { id: "mwrap" } }, [
+          _c("div", { attrs: { id: "lt" } }),
           _vm._v(" "),
-          _c("div", { attrs: { id: "mwrap" } }, [
-            _c("div", { attrs: { id: "lt" } }),
-            _vm._v(" "),
-            _c("div", { attrs: { id: "lm" } }),
-            _vm._v(" "),
-            _c("div", { attrs: { id: "lb" } })
-          ]),
+          _c("div", { attrs: { id: "lm" } }),
           _vm._v(" "),
-          _c("div", { attrs: { id: "nwrap" } }, [
-            _c("div", { attrs: { id: "menuBtn" } }),
-            _vm._v(" "),
-            _c("nav", [
-              _c("ul", { staticClass: "navigation" }, [
-                _c("li", { attrs: { id: "current" } }, [
-                  _c(
-                    "a",
-                    {
-                      attrs: { href: "index.html", rel: "self", id: "current" }
-                    },
-                    [_vm._v("Main")]
-                  )
-                ]),
-                _vm._v(" "),
-                _c("li", [
-                  _c(
-                    "a",
-                    {
-                      attrs: {
-                        href: "how-to-prepare-for-cda-interview.html",
-                        rel: "self"
-                      }
-                    },
-                    [_vm._v("How To Prepare")]
-                  )
-                ]),
-                _vm._v(" "),
-                _c("li", [
-                  _c(
-                    "a",
-                    {
-                      attrs: {
-                        href: "sample-cda-interview-questions.html",
-                        rel: "self"
-                      }
-                    },
-                    [_vm._v("CDA Interview Questions")]
-                  )
-                ]),
-                _vm._v(" "),
-                _c("li", [
-                  _c("a", { attrs: { href: "contactUs", rel: "self" } }, [
-                    _vm._v("Contact Us")
-                  ])
+          _c("div", { attrs: { id: "lb" } })
+        ]),
+        _vm._v(" "),
+        _c("div", { attrs: { id: "nwrap" } }, [
+          _c("nav", { staticClass: "show navb" }, [
+            _c("ul", { staticClass: "navigation" }, [
+              _c("li", { attrs: { id: "current" } }, [
+                _c("a", { attrs: { href: "/", rel: "self", id: "current" } }, [
+                  _vm._v("Main")
+                ])
+              ]),
+              _vm._v(" "),
+              _c("li", [
+                _c(
+                  "a",
+                  {
+                    attrs: {
+                      href: "how-to-prepare-for-cda-interview.html",
+                      rel: "self"
+                    }
+                  },
+                  [_vm._v("How To Prepare")]
+                )
+              ]),
+              _vm._v(" "),
+              _c("li", [
+                _c(
+                  "a",
+                  {
+                    attrs: {
+                      href: "sample-cda-interview-questions.html",
+                      rel: "self"
+                    }
+                  },
+                  [_vm._v("CDA Interview Questions")]
+                )
+              ]),
+              _vm._v(" "),
+              _c("li", [
+                _c("a", { attrs: { href: "/contactUs", rel: "self" } }, [
+                  _vm._v("Contact Us")
                 ])
               ])
             ])
@@ -4724,6 +4856,41 @@ var staticRenderFns = [
     )
   }
 ]
+render._withStripped = true
+
+
+
+/***/ }),
+
+/***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/contact.vue?vue&type=template&id=fd6babdc&":
+/*!***********************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/contact.vue?vue&type=template&id=fd6babdc& ***!
+  \***********************************************************************************************************************************************************************************************/
+/*! exports provided: render, staticRenderFns */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "render", function() { return render; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return staticRenderFns; });
+var render = function() {
+  var _vm = this
+  var _h = _vm.$createElement
+  var _c = _vm._self._c || _h
+  return _c(
+    "div",
+    { attrs: { id: "contact" } },
+    [
+      _c("cmp-navbar"),
+      _vm._v(" "),
+      _c("div", { staticClass: "container" }, [_c("cmp-contact")], 1),
+      _vm._v(" "),
+      _c("cmp-footer")
+    ],
+    1
+  )
+}
+var staticRenderFns = []
 render._withStripped = true
 
 
@@ -20005,7 +20172,9 @@ __webpack_require__.r(__webpack_exports__);
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _routes__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./routes */ "./resources/js/routes.js");
 /* harmony import */ var _App_vue__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./App.vue */ "./resources/js/App.vue");
+/* harmony import */ var _contact_vue__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./contact.vue */ "./resources/js/contact.vue");
 __webpack_require__(/*! ./bootstrap */ "./resources/js/bootstrap.js");
+
 
 
 
@@ -20016,6 +20185,15 @@ var app = new Vue({
   template: '<App/>',
   components: {
     App: _App_vue__WEBPACK_IMPORTED_MODULE_1__["default"]
+  }
+});
+var contact = new Vue({
+  el: '#contact',
+  router: _routes__WEBPACK_IMPORTED_MODULE_0__["default"],
+  // router: router,
+  template: '<Contact/>',
+  components: {
+    Contact: _contact_vue__WEBPACK_IMPORTED_MODULE_2__["default"]
   }
 });
 
@@ -20143,7 +20321,9 @@ __webpack_require__.r(__webpack_exports__);
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _contactUs_vue_vue_type_template_id_26378223_scoped_true___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./contactUs.vue?vue&type=template&id=26378223&scoped=true& */ "./resources/js/components/contactUs.vue?vue&type=template&id=26378223&scoped=true&");
 /* harmony import */ var _contactUs_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./contactUs.vue?vue&type=script&lang=js& */ "./resources/js/components/contactUs.vue?vue&type=script&lang=js&");
-/* empty/unused harmony star reexport *//* harmony import */ var _node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../../node_modules/vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
+/* empty/unused harmony star reexport *//* harmony import */ var _contactUs_vue_vue_type_style_index_0_id_26378223_scoped_true_lang_css___WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./contactUs.vue?vue&type=style&index=0&id=26378223&scoped=true&lang=css& */ "./resources/js/components/contactUs.vue?vue&type=style&index=0&id=26378223&scoped=true&lang=css&");
+/* harmony import */ var _node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../../../node_modules/vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
+
 
 
 
@@ -20151,7 +20331,7 @@ __webpack_require__.r(__webpack_exports__);
 
 /* normalize component */
 
-var component = Object(_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__["default"])(
+var component = Object(_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_3__["default"])(
   _contactUs_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__["default"],
   _contactUs_vue_vue_type_template_id_26378223_scoped_true___WEBPACK_IMPORTED_MODULE_0__["render"],
   _contactUs_vue_vue_type_template_id_26378223_scoped_true___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"],
@@ -20180,6 +20360,22 @@ component.options.__file = "resources/js/components/contactUs.vue"
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_contactUs_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../node_modules/babel-loader/lib??ref--4-0!../../../node_modules/vue-loader/lib??vue-loader-options!./contactUs.vue?vue&type=script&lang=js& */ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/contactUs.vue?vue&type=script&lang=js&");
 /* empty/unused harmony star reexport */ /* harmony default export */ __webpack_exports__["default"] = (_node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_contactUs_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__["default"]); 
+
+/***/ }),
+
+/***/ "./resources/js/components/contactUs.vue?vue&type=style&index=0&id=26378223&scoped=true&lang=css&":
+/*!********************************************************************************************************!*\
+  !*** ./resources/js/components/contactUs.vue?vue&type=style&index=0&id=26378223&scoped=true&lang=css& ***!
+  \********************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _node_modules_style_loader_index_js_node_modules_css_loader_index_js_ref_6_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_6_2_node_modules_vue_loader_lib_index_js_vue_loader_options_contactUs_vue_vue_type_style_index_0_id_26378223_scoped_true_lang_css___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../node_modules/style-loader!../../../node_modules/css-loader??ref--6-1!../../../node_modules/vue-loader/lib/loaders/stylePostLoader.js!../../../node_modules/postcss-loader/src??ref--6-2!../../../node_modules/vue-loader/lib??vue-loader-options!./contactUs.vue?vue&type=style&index=0&id=26378223&scoped=true&lang=css& */ "./node_modules/style-loader/index.js!./node_modules/css-loader/index.js?!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/src/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/contactUs.vue?vue&type=style&index=0&id=26378223&scoped=true&lang=css&");
+/* harmony import */ var _node_modules_style_loader_index_js_node_modules_css_loader_index_js_ref_6_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_6_2_node_modules_vue_loader_lib_index_js_vue_loader_options_contactUs_vue_vue_type_style_index_0_id_26378223_scoped_true_lang_css___WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_style_loader_index_js_node_modules_css_loader_index_js_ref_6_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_6_2_node_modules_vue_loader_lib_index_js_vue_loader_options_contactUs_vue_vue_type_style_index_0_id_26378223_scoped_true_lang_css___WEBPACK_IMPORTED_MODULE_0__);
+/* harmony reexport (unknown) */ for(var __WEBPACK_IMPORT_KEY__ in _node_modules_style_loader_index_js_node_modules_css_loader_index_js_ref_6_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_6_2_node_modules_vue_loader_lib_index_js_vue_loader_options_contactUs_vue_vue_type_style_index_0_id_26378223_scoped_true_lang_css___WEBPACK_IMPORTED_MODULE_0__) if(["default"].indexOf(__WEBPACK_IMPORT_KEY__) < 0) (function(key) { __webpack_require__.d(__webpack_exports__, key, function() { return _node_modules_style_loader_index_js_node_modules_css_loader_index_js_ref_6_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_6_2_node_modules_vue_loader_lib_index_js_vue_loader_options_contactUs_vue_vue_type_style_index_0_id_26378223_scoped_true_lang_css___WEBPACK_IMPORTED_MODULE_0__[key]; }) }(__WEBPACK_IMPORT_KEY__));
+ /* harmony default export */ __webpack_exports__["default"] = (_node_modules_style_loader_index_js_node_modules_css_loader_index_js_ref_6_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_6_2_node_modules_vue_loader_lib_index_js_vue_loader_options_contactUs_vue_vue_type_style_index_0_id_26378223_scoped_true_lang_css___WEBPACK_IMPORTED_MODULE_0___default.a); 
 
 /***/ }),
 
@@ -20212,7 +20408,9 @@ __webpack_require__.r(__webpack_exports__);
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _Footer_vue_vue_type_template_id_bc338846_scoped_true___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./Footer.vue?vue&type=template&id=bc338846&scoped=true& */ "./resources/js/components/partials/Footer.vue?vue&type=template&id=bc338846&scoped=true&");
 /* harmony import */ var _Footer_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./Footer.vue?vue&type=script&lang=js& */ "./resources/js/components/partials/Footer.vue?vue&type=script&lang=js&");
-/* empty/unused harmony star reexport *//* harmony import */ var _node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../../../node_modules/vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
+/* empty/unused harmony star reexport *//* harmony import */ var _Footer_vue_vue_type_style_index_0_id_bc338846_scoped_true_lang_css___WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./Footer.vue?vue&type=style&index=0&id=bc338846&scoped=true&lang=css& */ "./resources/js/components/partials/Footer.vue?vue&type=style&index=0&id=bc338846&scoped=true&lang=css&");
+/* harmony import */ var _node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../../../../node_modules/vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
+
 
 
 
@@ -20220,7 +20418,7 @@ __webpack_require__.r(__webpack_exports__);
 
 /* normalize component */
 
-var component = Object(_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__["default"])(
+var component = Object(_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_3__["default"])(
   _Footer_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__["default"],
   _Footer_vue_vue_type_template_id_bc338846_scoped_true___WEBPACK_IMPORTED_MODULE_0__["render"],
   _Footer_vue_vue_type_template_id_bc338846_scoped_true___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"],
@@ -20249,6 +20447,22 @@ component.options.__file = "resources/js/components/partials/Footer.vue"
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_Footer_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../node_modules/babel-loader/lib??ref--4-0!../../../../node_modules/vue-loader/lib??vue-loader-options!./Footer.vue?vue&type=script&lang=js& */ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/partials/Footer.vue?vue&type=script&lang=js&");
 /* empty/unused harmony star reexport */ /* harmony default export */ __webpack_exports__["default"] = (_node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_Footer_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__["default"]); 
+
+/***/ }),
+
+/***/ "./resources/js/components/partials/Footer.vue?vue&type=style&index=0&id=bc338846&scoped=true&lang=css&":
+/*!**************************************************************************************************************!*\
+  !*** ./resources/js/components/partials/Footer.vue?vue&type=style&index=0&id=bc338846&scoped=true&lang=css& ***!
+  \**************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _node_modules_style_loader_index_js_node_modules_css_loader_index_js_ref_6_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_6_2_node_modules_vue_loader_lib_index_js_vue_loader_options_Footer_vue_vue_type_style_index_0_id_bc338846_scoped_true_lang_css___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../node_modules/style-loader!../../../../node_modules/css-loader??ref--6-1!../../../../node_modules/vue-loader/lib/loaders/stylePostLoader.js!../../../../node_modules/postcss-loader/src??ref--6-2!../../../../node_modules/vue-loader/lib??vue-loader-options!./Footer.vue?vue&type=style&index=0&id=bc338846&scoped=true&lang=css& */ "./node_modules/style-loader/index.js!./node_modules/css-loader/index.js?!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/src/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/partials/Footer.vue?vue&type=style&index=0&id=bc338846&scoped=true&lang=css&");
+/* harmony import */ var _node_modules_style_loader_index_js_node_modules_css_loader_index_js_ref_6_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_6_2_node_modules_vue_loader_lib_index_js_vue_loader_options_Footer_vue_vue_type_style_index_0_id_bc338846_scoped_true_lang_css___WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_style_loader_index_js_node_modules_css_loader_index_js_ref_6_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_6_2_node_modules_vue_loader_lib_index_js_vue_loader_options_Footer_vue_vue_type_style_index_0_id_bc338846_scoped_true_lang_css___WEBPACK_IMPORTED_MODULE_0__);
+/* harmony reexport (unknown) */ for(var __WEBPACK_IMPORT_KEY__ in _node_modules_style_loader_index_js_node_modules_css_loader_index_js_ref_6_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_6_2_node_modules_vue_loader_lib_index_js_vue_loader_options_Footer_vue_vue_type_style_index_0_id_bc338846_scoped_true_lang_css___WEBPACK_IMPORTED_MODULE_0__) if(["default"].indexOf(__WEBPACK_IMPORT_KEY__) < 0) (function(key) { __webpack_require__.d(__webpack_exports__, key, function() { return _node_modules_style_loader_index_js_node_modules_css_loader_index_js_ref_6_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_6_2_node_modules_vue_loader_lib_index_js_vue_loader_options_Footer_vue_vue_type_style_index_0_id_bc338846_scoped_true_lang_css___WEBPACK_IMPORTED_MODULE_0__[key]; }) }(__WEBPACK_IMPORT_KEY__));
+ /* harmony default export */ __webpack_exports__["default"] = (_node_modules_style_loader_index_js_node_modules_css_loader_index_js_ref_6_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_6_2_node_modules_vue_loader_lib_index_js_vue_loader_options_Footer_vue_vue_type_style_index_0_id_bc338846_scoped_true_lang_css___WEBPACK_IMPORTED_MODULE_0___default.a); 
 
 /***/ }),
 
@@ -20357,6 +20571,75 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
+/***/ "./resources/js/contact.vue":
+/*!**********************************!*\
+  !*** ./resources/js/contact.vue ***!
+  \**********************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _contact_vue_vue_type_template_id_fd6babdc___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./contact.vue?vue&type=template&id=fd6babdc& */ "./resources/js/contact.vue?vue&type=template&id=fd6babdc&");
+/* harmony import */ var _contact_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./contact.vue?vue&type=script&lang=js& */ "./resources/js/contact.vue?vue&type=script&lang=js&");
+/* empty/unused harmony star reexport *//* harmony import */ var _node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../node_modules/vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
+
+
+
+
+
+/* normalize component */
+
+var component = Object(_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__["default"])(
+  _contact_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__["default"],
+  _contact_vue_vue_type_template_id_fd6babdc___WEBPACK_IMPORTED_MODULE_0__["render"],
+  _contact_vue_vue_type_template_id_fd6babdc___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"],
+  false,
+  null,
+  null,
+  null
+  
+)
+
+/* hot reload */
+if (false) { var api; }
+component.options.__file = "resources/js/contact.vue"
+/* harmony default export */ __webpack_exports__["default"] = (component.exports);
+
+/***/ }),
+
+/***/ "./resources/js/contact.vue?vue&type=script&lang=js&":
+/*!***********************************************************!*\
+  !*** ./resources/js/contact.vue?vue&type=script&lang=js& ***!
+  \***********************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_contact_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../node_modules/babel-loader/lib??ref--4-0!../../node_modules/vue-loader/lib??vue-loader-options!./contact.vue?vue&type=script&lang=js& */ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/contact.vue?vue&type=script&lang=js&");
+/* empty/unused harmony star reexport */ /* harmony default export */ __webpack_exports__["default"] = (_node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_contact_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__["default"]); 
+
+/***/ }),
+
+/***/ "./resources/js/contact.vue?vue&type=template&id=fd6babdc&":
+/*!*****************************************************************!*\
+  !*** ./resources/js/contact.vue?vue&type=template&id=fd6babdc& ***!
+  \*****************************************************************/
+/*! exports provided: render, staticRenderFns */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_contact_vue_vue_type_template_id_fd6babdc___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../node_modules/vue-loader/lib??vue-loader-options!./contact.vue?vue&type=template&id=fd6babdc& */ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/contact.vue?vue&type=template&id=fd6babdc&");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "render", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_contact_vue_vue_type_template_id_fd6babdc___WEBPACK_IMPORTED_MODULE_0__["render"]; });
+
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_contact_vue_vue_type_template_id_fd6babdc___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"]; });
+
+
+
+/***/ }),
+
 /***/ "./resources/js/routes.js":
 /*!********************************!*\
   !*** ./resources/js/routes.js ***!
@@ -20403,8 +20686,8 @@ var routes = [{
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-__webpack_require__(/*! C:\Users\yashk\Desktop\BeMo\TestProject\resources\js\app.js */"./resources/js/app.js");
-module.exports = __webpack_require__(/*! C:\Users\yashk\Desktop\BeMo\TestProject\resources\sass\app.scss */"./resources/sass/app.scss");
+__webpack_require__(/*! C:\Users\yashk\Desktop\BeMo\TestProject\BeMODeveloper-Functional-Test\resources\js\app.js */"./resources/js/app.js");
+module.exports = __webpack_require__(/*! C:\Users\yashk\Desktop\BeMo\TestProject\BeMODeveloper-Functional-Test\resources\sass\app.scss */"./resources/sass/app.scss");
 
 
 /***/ })
