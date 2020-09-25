@@ -2436,6 +2436,19 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
 /* harmony default export */ __webpack_exports__["default"] = ({
   name: "cmp-footer"
 });
@@ -2616,7 +2629,7 @@ exports = module.exports = __webpack_require__(/*! ../../../../node_modules/css-
 
 
 // module
-exports.push([module.i, "\nhtml[data-v-bc338846],\r\nbody[data-v-bc338846],\r\ndiv[data-v-bc338846],\r\nspan[data-v-bc338846],\r\nobject[data-v-bc338846],\r\niframe[data-v-bc338846],\r\nh1[data-v-bc338846],\r\nh2[data-v-bc338846],\r\nh3[data-v-bc338846],\r\nh4[data-v-bc338846],\r\nh5[data-v-bc338846],\r\nh6[data-v-bc338846],\r\np[data-v-bc338846],\r\nblockquote[data-v-bc338846],\r\npre[data-v-bc338846],\r\nabbr[data-v-bc338846],\r\naddress[data-v-bc338846],\r\ncite[data-v-bc338846],\r\ncode[data-v-bc338846],\r\ndel[data-v-bc338846],\r\ndfn[data-v-bc338846],\r\nem[data-v-bc338846],\r\nimg[data-v-bc338846],\r\nins[data-v-bc338846],\r\nkbd[data-v-bc338846],\r\nq[data-v-bc338846],\r\nsamp[data-v-bc338846],\r\nsmall[data-v-bc338846],\r\nstrong[data-v-bc338846],\r\nsub[data-v-bc338846],\r\nsup[data-v-bc338846],\r\nvar[data-v-bc338846],\r\nb[data-v-bc338846],\r\ni[data-v-bc338846],\r\ndl[data-v-bc338846],\r\ndt[data-v-bc338846],\r\ndd[data-v-bc338846],\r\nol[data-v-bc338846],\r\nul[data-v-bc338846],\r\nli[data-v-bc338846],\r\nfieldset[data-v-bc338846],\r\nform[data-v-bc338846],\r\nlabel[data-v-bc338846],\r\nlegend[data-v-bc338846],\r\ntable[data-v-bc338846],\r\ncaption[data-v-bc338846],\r\ntbody[data-v-bc338846],\r\ntfoot[data-v-bc338846],\r\nthead[data-v-bc338846],\r\ntr[data-v-bc338846],\r\nth[data-v-bc338846],\r\ntd[data-v-bc338846],\r\narticle[data-v-bc338846],\r\naside[data-v-bc338846],\r\ncanvas[data-v-bc338846],\r\ndetails[data-v-bc338846],\r\nfigcaption[data-v-bc338846],\r\nfigure[data-v-bc338846],\r\nfooter[data-v-bc338846],\r\nheader[data-v-bc338846],\r\nhgroup[data-v-bc338846],\r\nmenu[data-v-bc338846],\r\nnav[data-v-bc338846],\r\nsection[data-v-bc338846],\r\nsummary[data-v-bc338846],\r\ntime[data-v-bc338846],\r\nmark[data-v-bc338846],\r\naudio[data-v-bc338846],\r\nvideo[data-v-bc338846] {\r\n  margin: 0;\r\n  padding: 0;\r\n  border: 0;\r\n  outline: 0;\r\n  font-size: 100%;\r\n  background: transparent;\n}\narticle[data-v-bc338846],aside[data-v-bc338846],details[data-v-bc338846],figcaption[data-v-bc338846],figure[data-v-bc338846],footer[data-v-bc338846],header[data-v-bc338846],hgroup[data-v-bc338846],menu[data-v-bc338846],nav[data-v-bc338846],section[data-v-bc338846]{display:block;}\nfooter[data-v-bc338846] {\r\n  background-color: #000066;\n}\nfooter[data-v-bc338846] {\r\n  padding: 2% 5% 2% 5%;\n}\narticle[data-v-bc338846],\r\naside[data-v-bc338846],\r\ndetails[data-v-bc338846],\r\nfigcaption[data-v-bc338846],\r\nfigure[data-v-bc338846],\r\nfooter[data-v-bc338846],\r\nheader[data-v-bc338846],\r\nhgroup[data-v-bc338846],\r\nmenu[data-v-bc338846],\r\nnav[data-v-bc338846],\r\nsection[data-v-bc338846] {\r\n  display: block;\n}\n#footer[data-v-bc338846] {\r\n  font-size: 16px;\r\n  display: inline-block;\r\n      color: #FFFFFF;\r\nfont-size: 13px;\r\nfont-family: arial;\n}\n#container a[data-v-bc338846], #footer a[data-v-bc338846] {\r\n    color: #FF6600;\r\n    text-decoration: underline;\n}\n#container a[data-v-bc338846]:hover, #footer a[data-v-bc338846]:hover {\r\n    color: #909090;\r\n    font-family: arial;\r\n    text-decoration: underline;\n}\n@media only screen and (max-width: 767px) {\n#footer[data-v-bc338846] {\r\n    display: block;\r\n    padding-bottom: 10px;\n}\n#socialicons[data-v-bc338846],\r\n  #socialicons1[data-v-bc338846] {\r\n    float: none;\r\n    text-align: left;\r\n    padding-bottom: 10px;\n}\n.movie-thumbnail-frame[data-v-bc338846] {\r\n    display: block;\r\n    margin-left: auto;\r\n    margin-right: auto;\n}\n.form-input-field[data-v-bc338846] {\r\n    width: 96.5%;\n}\nform[data-v-bc338846] {\r\n    margin-left: 0;\n}\n}\n@media only screen and (max-width: 568px) {\n#footer[data-v-bc338846] {\r\n    padding-top: 20px;\r\n    text-align: left;\r\n    padding-bottom: 10px;\n}\n}\r\n", ""]);
+exports.push([module.i, "\nhtml[data-v-bc338846],\r\nbody[data-v-bc338846],\r\ndiv[data-v-bc338846],\r\nspan[data-v-bc338846],\r\nobject[data-v-bc338846],\r\niframe[data-v-bc338846],\r\nh1[data-v-bc338846],\r\nh2[data-v-bc338846],\r\nh3[data-v-bc338846],\r\nh4[data-v-bc338846],\r\nh5[data-v-bc338846],\r\nh6[data-v-bc338846],\r\np[data-v-bc338846],\r\nblockquote[data-v-bc338846],\r\npre[data-v-bc338846],\r\nabbr[data-v-bc338846],\r\naddress[data-v-bc338846],\r\ncite[data-v-bc338846],\r\ncode[data-v-bc338846],\r\ndel[data-v-bc338846],\r\ndfn[data-v-bc338846],\r\nem[data-v-bc338846],\r\nimg[data-v-bc338846],\r\nins[data-v-bc338846],\r\nkbd[data-v-bc338846],\r\nq[data-v-bc338846],\r\nsamp[data-v-bc338846],\r\nsmall[data-v-bc338846],\r\nstrong[data-v-bc338846],\r\nsub[data-v-bc338846],\r\nsup[data-v-bc338846],\r\nvar[data-v-bc338846],\r\nb[data-v-bc338846],\r\ni[data-v-bc338846],\r\ndl[data-v-bc338846],\r\ndt[data-v-bc338846],\r\ndd[data-v-bc338846],\r\nol[data-v-bc338846],\r\nul[data-v-bc338846],\r\nli[data-v-bc338846],\r\nfieldset[data-v-bc338846],\r\nform[data-v-bc338846],\r\nlabel[data-v-bc338846],\r\nlegend[data-v-bc338846],\r\ntable[data-v-bc338846],\r\ncaption[data-v-bc338846],\r\ntbody[data-v-bc338846],\r\ntfoot[data-v-bc338846],\r\nthead[data-v-bc338846],\r\ntr[data-v-bc338846],\r\nth[data-v-bc338846],\r\ntd[data-v-bc338846],\r\narticle[data-v-bc338846],\r\naside[data-v-bc338846],\r\ncanvas[data-v-bc338846],\r\ndetails[data-v-bc338846],\r\nfigcaption[data-v-bc338846],\r\nfigure[data-v-bc338846],\r\nfooter[data-v-bc338846],\r\nheader[data-v-bc338846],\r\nhgroup[data-v-bc338846],\r\nmenu[data-v-bc338846],\r\nnav[data-v-bc338846],\r\nsection[data-v-bc338846],\r\nsummary[data-v-bc338846],\r\ntime[data-v-bc338846],\r\nmark[data-v-bc338846],\r\naudio[data-v-bc338846],\r\nvideo[data-v-bc338846] {\r\n  margin: 0;\r\n  padding: 0;\r\n  border: 0;\r\n  outline: 0;\r\n  font-size: 100%;\r\n  background: transparent;\n}\narticle[data-v-bc338846],aside[data-v-bc338846],details[data-v-bc338846],figcaption[data-v-bc338846],figure[data-v-bc338846],footer[data-v-bc338846],header[data-v-bc338846],hgroup[data-v-bc338846],menu[data-v-bc338846],nav[data-v-bc338846],section[data-v-bc338846]{display:block;}\nfooter[data-v-bc338846] {\r\n  background-color: #000066;\n}\nfooter[data-v-bc338846] {\r\n  padding: 2% 5% 2% 5%;\n}\narticle[data-v-bc338846],\r\naside[data-v-bc338846],\r\ndetails[data-v-bc338846],\r\nfigcaption[data-v-bc338846],\r\nfigure[data-v-bc338846],\r\nfooter[data-v-bc338846],\r\nheader[data-v-bc338846],\r\nhgroup[data-v-bc338846],\r\nmenu[data-v-bc338846],\r\nnav[data-v-bc338846],\r\nsection[data-v-bc338846] {\r\n  display: block;\n}\n#footer[data-v-bc338846] {\r\n  font-size: 16px;\r\n  display: inline-block;\r\n      color: #FFFFFF;\r\nfont-size: 13px;\r\nfont-family: arial;\n}\n#container a[data-v-bc338846], #footer a[data-v-bc338846] {\r\n    color: #FF6600;\r\n    text-decoration: underline;\n}\n#container a[data-v-bc338846]:hover, #footer a[data-v-bc338846]:hover {\r\n    color: #909090;\r\n    font-family: arial;\r\n    text-decoration: underline;\n}\n@media only screen and (max-width: 767px) {\n#footer[data-v-bc338846] {\r\n    display: block;\r\n    padding-bottom: 10px;\n}\n#socialicons[data-v-bc338846],\r\n  #socialicons1[data-v-bc338846] {    \r\n    float: right;\r\n    /* display: inline-block; */\n}\n.movie-thumbnail-frame[data-v-bc338846] {\r\n    display: block;\r\n    margin-left: auto;\r\n    margin-right: auto;\n}\n.form-input-field[data-v-bc338846] {\r\n    width: 96.5%;\n}\nform[data-v-bc338846] {\r\n    margin-left: 0;\n}\n}\n@media only screen and (max-width: 568px) {\n#footer[data-v-bc338846] {\r\n    padding-top: 20px;\r\n    text-align: left;\r\n    padding-bottom: 10px;\n}\n}\r\n", ""]);
 
 // exports
 
@@ -4687,7 +4700,7 @@ var staticRenderFns = [
     return _c("footer", [
       _c("div", { attrs: { id: "footer" } }, [
         _vm._v(
-          "\n    ©2013-2016 BeMo Academic Consulting Inc. All rights reserved.\n    "
+          "\n      ©2013-2016 BeMo Academic Consulting Inc. All rights reserved.\n      "
         ),
         _c(
           "a",
@@ -4721,26 +4734,46 @@ var staticRenderFns = [
         )
       ]),
       _vm._v(" "),
-      _c("div", { attrs: { id: "socialicons" } }, [
-        _c("div", { attrs: { id: "socialicons1" } }),
-        _vm._v(" "),
-        _c(
-          "a",
-          {
-            staticClass: "social",
-            attrs: { href: "https://www.facebook.com/bemoacademicconsulting" }
-          },
-          [_vm._v("F")]
-        ),
-        _c(
-          "a",
-          {
-            staticClass: "social",
-            attrs: { href: "https://twitter.com/BeMo_AC" }
-          },
-          [_vm._v("L")]
-        )
-      ])
+      _c(
+        "span",
+        { staticStyle: { float: "right" }, attrs: { id: "socialicons" } },
+        [
+          _c(
+            "a",
+            {
+              staticClass: "social",
+              attrs: { href: "https://www.facebook.com/bemoacademicconsulting" }
+            },
+            [
+              _c("img", {
+                attrs: {
+                  src: "/images/fb.png",
+                  alt: "fb icon",
+                  width: "21.79",
+                  height: "22"
+                }
+              })
+            ]
+          ),
+          _c(
+            "a",
+            {
+              staticClass: "social",
+              attrs: { href: "https://twitter.com/BeMo_AC" }
+            },
+            [
+              _c("img", {
+                attrs: {
+                  src: "/images/twit.png",
+                  alt: "twiter icon",
+                  width: "21.5",
+                  height: "22"
+                }
+              })
+            ]
+          )
+        ]
+      )
     ])
   }
 ]
@@ -20177,6 +20210,7 @@ __webpack_require__(/*! ./bootstrap */ "./resources/js/bootstrap.js");
 
 
 
+ // window.onload = function () {
 
 var app = new Vue({
   el: '#app',
@@ -20186,7 +20220,9 @@ var app = new Vue({
   components: {
     App: _App_vue__WEBPACK_IMPORTED_MODULE_1__["default"]
   }
-});
+}); // }
+// window.onload = function () {
+
 var contact = new Vue({
   el: '#contact',
   router: _routes__WEBPACK_IMPORTED_MODULE_0__["default"],
@@ -20195,7 +20231,7 @@ var contact = new Vue({
   components: {
     Contact: _contact_vue__WEBPACK_IMPORTED_MODULE_2__["default"]
   }
-});
+}); // }
 
 /***/ }),
 

@@ -12,14 +12,27 @@
       <a href="mailto:info@bemoacademicconsulting.com" id="rw_email_contact"
         ><span style="text-decoration: underline">Contact Us</span></a
       >
-    </div>
-
-    <div id="socialicons">
-      <div id="socialicons1"></div>
+    
+</div>
+    <!-- <div id="socialicons"> -->
+      <!-- <div id="socialicons1"></div> -->
+      <span id="socialicons" style="float:right;">
       <a class="social" href="https://www.facebook.com/bemoacademicconsulting"
-        >F</a
-      ><a class="social" href="https://twitter.com/BeMo_AC">L</a>
-    </div>
+        ><img
+              src="/images/fb.png"
+              alt="fb icon"
+              width="21.79"
+              height="22"
+            /></a
+      ><a class="social" href="https://twitter.com/BeMo_AC"><img
+              src="/images/twit.png"
+              alt="twiter icon"
+              width="21.5"
+              height="22"
+            /></a>
+            </span>
+            <!-- </div> -->
+    
   </footer>
 </template>
  
@@ -151,11 +164,10 @@ font-family: arial;
   }
 
   #socialicons,
-  #socialicons1 {
-    float: none;
-    text-align: left;
-    padding-bottom: 10px;
-  }
+  #socialicons1 {    
+    float: right;
+    /* display: inline-block; */
+}
 
   .movie-thumbnail-frame {
     display: block;
